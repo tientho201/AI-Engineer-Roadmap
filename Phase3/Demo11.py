@@ -32,7 +32,7 @@ class MiniGPT(nn.Module):
             TransformerBlock(d_model, n_heads, d_model * 4, dropout)
             for _ in range(n_layers)])
         self.ln_f = nn.LayerNorm(d_model)
-        self.head = nn.Linear(d_model, vocab_size, bias=False) # (d_model, vocab_size)
+        self.head = nn.Linear(d_model, vocab_size, bias=False) # ( vocab_size , d_model)
         self.head.weight = self.tok_emb.weight     # weight tying -> giảm tham số
 
     def forward(self, idx, targets=None):

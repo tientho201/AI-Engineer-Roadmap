@@ -3,3 +3,10 @@ ai-roadmap/
 */.vscode/
 */data/
 */__pycache__/
+
+*/runs/
+*/attention_maps/
+*/.mplcache/
+/Phase3/best_minigpt.pt
+
+

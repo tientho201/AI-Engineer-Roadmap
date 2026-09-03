@@ -12,7 +12,7 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 |-------|--------|--------------------|-----------------|
 | **Phase 1** | Nền tảng (Math + Python) | 4–6 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 2** | Machine Learning cơ bản | 6–8 tuần | ✅ Demo + dự án cuối phase |
-| **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo (dự án cuối phase đang phát triển) |
+| **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 4** | NLP & Large Language Models | 6–8 tuần | 🚧 Đang chuẩn bị |
 | **Phase 5** | Computer Vision | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | 🚧 Đang chuẩn bị |
@@ -26,7 +26,7 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 AI-Engineering-Review/
 ├── Phase1/          # Nền tảng: NumPy, toán ML, autograd, Python nâng cao
 ├── Phase2/          # Classical ML: sklearn, tuning, explainability
-├── Phase3/          # Deep Learning: PyTorch, CNN, RNN/LSTM, Transformer
+├── Phase3/          # Deep Learning: PyTorch, CNN, RNN/LSTM, Transformer, MiniGPT
 ├── Phase4/          # NLP, LLM, RAG & AI Agents
 ├── Phase5/          # Computer Vision
 ├── Phase6/          # MLOps & triển khai production
@@ -40,7 +40,7 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 |-------|---------------|--------------|
 | Phase 1 | `Phase1/final_phase1.py` | Mini Vector DB (TF-IDF + cosine search) |
 | Phase 2 | `Phase2/final_phase2.py` | Pipeline dự đoán churn (LightGBM + Optuna) |
-| Phase 3 | `Phase3/Final_3.py` | *(đang phát triển)* |
+| Phase 3 | `Phase3/final_phase3.py` | MiniGPT — BPE tokenizer + RoPE |
 | Phase 4 | — | NLP, LLM, RAG, AI Agents |
 | Phase 5 | — | Computer Vision |
 | Phase 6 | — | MLOps, deployment, monitoring |
@@ -59,28 +59,21 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 ## Cài đặt
 
 ```bash
-# Clone repository
-git clone <repo-url>
-cd AI-Engineering-Review
+git clone https://github.com/tientho201/AI-Engineer-Roadmap.git
+cd AI-Engineer-Roadmap
 
-# Tạo môi trường và cài dependencies
-cd ai-roadmap
-uv sync
+cd ai-roadmap && uv sync && cd ..
+source ai-roadmap/.venv/bin/activate   # Linux / macOS
+# ai-roadmap\.venv\Scripts\activate    # Windows
 ```
 
-Kích hoạt môi trường ảo:
-
-```bash
-source .venv/bin/activate   # Linux / macOS
-# .venv\Scripts\activate    # Windows
-```
-
-Chạy một demo bất kỳ:
+Chạy demo từ thư mục gốc repo:
 
 ```bash
 python Phase1/Demo1.py
 python Phase2/Demo1.py
 python Phase3/Demo1.py
+python Phase3/final_phase3.py
 ```
 
 ---
@@ -154,7 +147,23 @@ PyTorch từ autograd đến kiến trúc GPT mini và các kỹ thuật tối �
 | Demo11 | MiniGPT — Transformer block, weight tying |
 | Demo12 | Tối ưu GPU — `torch.compile`, gradient accumulation, checkpointing |
 
-**Dự án cuối phase:** `Final_3.py` *(đang phát triển)*
+**Dự án cuối phase:** train MiniGPT trên Truyện Kiều (`kieu.txt`).
+
+| File | Vai trò |
+|------|---------|
+| `mini_gpt_v2.py` | MiniGPT với RoPE (không dùng positional embedding học được) |
+| `final_phase3.py` | Training loop: BPE, val split, early stopping, TensorBoard, attention map |
+| `kieu.txt` | Corpus huấn luyện |
+| `bpe_tokenizer.json` | Tokenizer BPE (tự tạo lần chạy đầu) |
+
+Nâng cấp so với MiniGPT ở Demo 11: tokenizer BPE (`tokenizers`), RoPE, validation + early stopping, TensorBoard, visualize attention, so sánh temperature khi sinh văn.
+
+```bash
+python Phase3/final_phase3.py
+tensorboard --logdir Phase3/runs
+```
+
+Tùy chọn: `--epochs`, `--batch-size`, `--block-size`, `--patience`, `--lr`. GPU khuyến nghị; CPU vẫn chạy được (tắt `torch.compile` và autocast). Checkpoint `best_minigpt.pt` không commit lên git. 
 
 ---
 
@@ -242,6 +251,7 @@ Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
 | Optuna | Hyperparameter optimization |
 | SHAP | Model explainability |
 | PyTorch, torchvision, torchaudio | Deep Learning |
+| tokenizers | BPE tokenizer (Phase 3) |
 | einops | Tensor manipulation |
 | Matplotlib, Seaborn | Visualization |
 | Jupyter | Notebook (Phase 2: `final_phase2.ipynb`) |
@@ -256,7 +266,7 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 - Các file demo được thiết kế **chạy độc lập**, có comment giải thích bằng tiếng Việt.
 - Một số demo Phase 2/3 cần dataset hoặc GPU — kiểm tra comment đầu file trước khi chạy.
 - Phase 4–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://app.notion.com/p/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3890743dbce5816f89feffc2e0b66c37?source=copy_link).
-- Thư mục `ai-roadmap/.venv`, `*/data/`, `*/__pycache__/` đã được loại trừ khỏi git (xem `.gitignore`).
+- Đã ignore: `ai-roadmap/.venv`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 
 ---
 

@@ -13,7 +13,7 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 | **Phase 1** | Nền tảng (Math + Python) | 4–6 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 2** | Machine Learning cơ bản | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo + dự án cuối phase |
-| **Phase 4** | NLP & Large Language Models | 6–8 tuần | 🚧 Đang chuẩn bị |
+| **Phase 4** | NLP & Large Language Models | 6–8 tuần | 🚧 Demo 1–5 (đang mở rộng) |
 | **Phase 5** | Computer Vision | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 7** | AI Engineering nâng cao | On-going | 🚧 Đang chuẩn bị |
@@ -41,7 +41,7 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 | Phase 1 | `Phase1/final_phase1.py` | Mini Vector DB (TF-IDF + cosine search) |
 | Phase 2 | `Phase2/final_phase2.py` | Pipeline dự đoán churn (LightGBM + Optuna) |
 | Phase 3 | `Phase3/final_phase3.py` | MiniGPT — BPE tokenizer + RoPE |
-| Phase 4 | — | NLP, LLM, RAG, AI Agents |
+| Phase 4 | *(chưa có)* | Tokenizer, retrieval, structured output, tool-calling agent |
 | Phase 5 | — | Computer Vision |
 | Phase 6 | — | MLOps, deployment, monitoring |
 | Phase 7 | — | Model optimization, system design, multimodal AI |
@@ -53,6 +53,7 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 - **Python** 3.12+
 - **GPU** (khuyến nghị từ Phase 3 trở đi) — PyTorch cấu hình CUDA 12.8
 - **[uv](https://docs.astral.sh/uv/)** — quản lý môi trường & cài đặt dependencies
+- **OpenAI API key** — bắt buộc cho một số demo Phase 4 (Demo4, Demo5)
 
 ---
 
@@ -67,13 +68,33 @@ source ai-roadmap/.venv/bin/activate   # Linux / macOS
 # ai-roadmap\.venv\Scripts\activate    # Windows
 ```
 
-Chạy demo từ thư mục gốc repo:
+### Cấu hình OpenAI (`.env`)
+
+Các demo Phase 4 gọi OpenAI đọc key từ biến môi trường `OPENAI_API_KEY` qua `python-dotenv`.
+
+```bash
+# Tạo file .env ở thư mục gốc repo
+cp .env.example .env
+```
+
+Mở `.env` và điền key:
+
+```env
+OPENAI_API_KEY=sk-...
+```
+
+Lấy key tại [platform.openai.com/api-keys](https://platform.openai.com/api-keys). **Không commit** `.env` (đã có trong `.gitignore`).
+
+Chạy demo từ thư mục gốc repo (để `load_dotenv()` tìm được `.env`):
 
 ```bash
 python Phase1/Demo1.py
 python Phase2/Demo1.py
 python Phase3/Demo1.py
 python Phase3/final_phase3.py
+python Phase4/Demo1.py
+python Phase4/Demo4.py   # cần OPENAI_API_KEY
+python Phase4/Demo5.py   # cần OPENAI_API_KEY
 ```
 
 ---
@@ -169,18 +190,25 @@ Tùy chọn: `--epochs`, `--batch-size`, `--block-size`, `--patience`, `--lr`. G
 
 ## Phase 4 — NLP & Large Language Models
 
-Xử lý ngôn ngữ tự nhiên, LLM, fine-tuning, RAG và AI Agents.
+Xử lý ngôn ngữ tự nhiên, tokenizer, retrieval, LLM API, structured output và AI Agents.
 
-| Chủ đề | Nội dung |
-|--------|----------|
-| NLP cơ bản | Xử lý văn bản truyền thống |
-| Large Language Models | Hiểu kiến trúc & cách hoạt động LLM |
-| Fine-tuning | Adapt LLM cho tác vụ cụ thể |
-| Prompt Engineering | Thiết kế prompt hiệu quả |
-| RAG | Retrieval-Augmented Generation |
-| AI Agents | Orchestration, tool calling |
+| Demo | Chủ đề | Cần API key |
+|------|--------|-------------|
+| Demo1 | Tokenizer GPT-2 — đo token (tiếng Việt vs tiếng Anh) | Không |
+| Demo2 | Tự train BPE — hiểu merge pair | Không |
+| Demo3 | Hybrid retrieval — BM25 vs embedding (`sentence-transformers`) | Không |
+| Demo4 | Structured output — `instructor` + Pydantic + OpenAI | Có |
+| Demo5 | Tool-calling agent — vòng lặp OpenAI Responses API | Có |
 
-**Trạng thái:** thư mục `Phase4/` đã tạo — demo code sẽ được bổ sung theo lộ trình Notion.
+**Cần `.env`:** Demo4 và Demo5 dùng `OPENAI_API_KEY` (xem [Cấu hình OpenAI](#cấu-hình-openai-env)).
+
+```bash
+python Phase4/Demo1.py
+python Phase4/Demo4.py
+python Phase4/Demo5.py
+```
+
+Các chủ đề còn lại theo lộ trình (fine-tuning, RAG đầy đủ, LangChain/LangGraph) sẽ bổ sung dần.
 
 ---
 
@@ -251,7 +279,11 @@ Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
 | Optuna | Hyperparameter optimization |
 | SHAP | Model explainability |
 | PyTorch, torchvision, torchaudio | Deep Learning |
-| tokenizers | BPE tokenizer (Phase 3) |
+| tokenizers, transformers | Tokenizer / Hugging Face models |
+| sentence-transformers, rank-bm25 | Embedding & lexical retrieval (Phase 4) |
+| openai, instructor, pydantic | LLM API & structured output (Phase 4) |
+| langchain, langgraph, llama-index | Orchestration / RAG (Phase 4+) |
+| dotenv | Load `OPENAI_API_KEY` từ `.env` |
 | einops | Tensor manipulation |
 | Matplotlib, Seaborn | Visualization |
 | Jupyter | Notebook (Phase 2: `final_phase2.ipynb`) |
@@ -265,8 +297,9 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 
 - Các file demo được thiết kế **chạy độc lập**, có comment giải thích bằng tiếng Việt.
 - Một số demo Phase 2/3 cần dataset hoặc GPU — kiểm tra comment đầu file trước khi chạy.
-- Phase 4–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://app.notion.com/p/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3890743dbce5816f89feffc2e0b66c37?source=copy_link).
-- Đã ignore: `ai-roadmap/.venv`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
+- Phase 4 Demo4/Demo5 cần file `.env` với `OPENAI_API_KEY` ở thư mục gốc repo.
+- Phase 5–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://app.notion.com/p/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3890743dbce5816f89feffc2e0b66c37?source=copy_link).
+- Đã ignore: `ai-roadmap/.venv`, `.env`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 
 ---
 

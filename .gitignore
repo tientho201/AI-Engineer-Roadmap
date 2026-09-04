@@ -9,4 +9,7 @@ ai-roadmap/
 */.mplcache/
 /Phase3/best_minigpt.pt
 
+.env
+*.env
+!.env.example
 

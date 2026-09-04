@@ -2,7 +2,7 @@
 
 Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** gồm **7 phase** — từ nền tảng toán & Python, qua Machine Learning, Deep Learning, NLP/LLM, Computer Vision, MLOps, đến AI Engineering nâng cao.
 
-📘 **Lộ trình chi tiết trên Notion:** [AI Engineer Roadmap — Lộ trình học đầy đủ](https://app.notion.com/p/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3890743dbce5816f89feffc2e0b66c37?source=copy_link)
+📘 **Lộ trình chi tiết trên Notion:** [AI Engineer Roadmap — Lộ trình học đầy đủ](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link)
 
 ---
 
@@ -298,7 +298,7 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 - Các file demo được thiết kế **chạy độc lập**, có comment giải thích bằng tiếng Việt.
 - Một số demo Phase 2/3 cần dataset hoặc GPU — kiểm tra comment đầu file trước khi chạy.
 - Phase 4 Demo4/Demo5 cần file `.env` với `OPENAI_API_KEY` ở thư mục gốc repo.
-- Phase 5–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://app.notion.com/p/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3890743dbce5816f89feffc2e0b66c37?source=copy_link).
+- Phase 5–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link).
 - Đã ignore: `ai-roadmap/.venv`, `.env`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 
 ---

@@ -13,3 +13,4 @@ ai-roadmap/
 *.env
 !.env.example
 
+Phase4/company_handbook.txt

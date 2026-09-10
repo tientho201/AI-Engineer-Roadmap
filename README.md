@@ -13,7 +13,7 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 | **Phase 1** | Nền tảng (Math + Python) | 4–6 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 2** | Machine Learning cơ bản | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo + dự án cuối phase |
-| **Phase 4** | NLP & Large Language Models | 6–8 tuần | ✅ Demo 1–15 |
+| **Phase 4** | NLP & Large Language Models | 6–8 tuần | ✅ Demo 1–19 |
 | **Phase 5** | Computer Vision | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 7** | AI Engineering nâng cao | On-going | 🚧 Đang chuẩn bị |
@@ -41,7 +41,7 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 | Phase 1 | `Phase1/final_phase1.py` | Mini Vector DB (TF-IDF + cosine search) |
 | Phase 2 | `Phase2/final_phase2.py` | Pipeline dự đoán churn (LightGBM + Optuna) |
 | Phase 3 | `Phase3/final_phase3.py` | MiniGPT — BPE tokenizer + RoPE |
-| Phase 4 | *(chưa có final)* | Tokenizer → RAG → Agents (LangGraph, MCP) |
+| Phase 4 | *(chưa có final)* | Tokenizer → RAG → Agents → Fine-tune → Eval/Obs |
 | Phase 5 | — | Computer Vision |
 | Phase 6 | — | MLOps, deployment, monitoring |
 | Phase 7 | — | Model optimization, system design, multimodal AI |
@@ -53,8 +53,10 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 - **Python** 3.12+
 - **GPU** (khuyến nghị từ Phase 3 trở đi) — PyTorch cấu hình CUDA 12.8
 - **[uv](https://docs.astral.sh/uv/)** — quản lý môi trường & cài đặt dependencies
-- **OpenAI API key** — bắt buộc cho nhiều demo Phase 4 (structured output, RAG, agents)
-- **Anthropic API key** — tùy chọn, dùng cho `Demo6-anthropic.py` (prompt caching)
+- **OpenAI API key** — bắt buộc cho nhiều demo Phase 4 (structured output, RAG, agents, Langfuse)
+- **Anthropic API key** — tùy chọn: `Demo6-anthropic.py`, `Demo19.py` (LLM-as-judge)
+- **Langfuse keys** — tùy chọn: `Demo18.py`, `Demo19-main.py` (observability)
+- **GPU** — khuyến nghị mạnh cho Demo16/17 (QLoRA / DPO)
 
 ---
 
@@ -81,13 +83,17 @@ cp .env.example .env
 
 ```env
 OPENAI_API_KEY=sk-...
-ANTHROPIC_API_KEY=sk-ant-...   # tùy chọn — Demo6-anthropic
+ANTHROPIC_API_KEY=sk-ant-...          # tùy chọn
+LANGFUSE_PUBLIC_KEY=pk-lf-...         # tùy chọn — Demo18 / Demo19-main
+LANGFUSE_SECRET_KEY=sk-lf-...
+LANGFUSE_BASE_URL=https://cloud.langfuse.com
 ```
 
 | Biến | Lấy key tại | Dùng cho |
 |------|-------------|----------|
-| `OPENAI_API_KEY` | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | Demo4–7, 6-openai, 11–12, 14–15 |
-| `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com/settings/keys) | Demo6-anthropic |
+| `OPENAI_API_KEY` | [platform.openai.com/api-keys](https://platform.openai.com/api-keys) | Demo4–7, 6-openai, 11–12, 14–15, 18, 19-main |
+| `ANTHROPIC_API_KEY` | [console.anthropic.com](https://console.anthropic.com/settings/keys) | Demo6-anthropic, Demo19 |
+| `LANGFUSE_PUBLIC_KEY` / `SECRET_KEY` | [cloud.langfuse.com](https://cloud.langfuse.com) → Settings → API Keys | Demo18, Demo19-main |
 
 **Không commit** `.env` (đã có trong `.gitignore`). Chạy demo từ thư mục gốc repo để `load_dotenv()` tìm được `.env`.
 
@@ -95,7 +101,8 @@ ANTHROPIC_API_KEY=sk-ant-...   # tùy chọn — Demo6-anthropic
 python Phase1/Demo1.py
 python Phase3/final_phase3.py
 python Phase4/Demo1.py
-python Phase4/Demo15.py   # cần OPENAI_API_KEY
+python Phase4/Demo18.py   # cần OpenAI + Langfuse
+python Phase4/Demo19.py   # cần Anthropic
 ```
 
 ---
@@ -191,10 +198,10 @@ Tùy chọn: `--epochs`, `--batch-size`, `--block-size`, `--patience`, `--lr`. G
 
 ## Phase 4 — NLP & Large Language Models
 
-Tokenizer, retrieval/RAG, LLM API, prompt security, MCP và AI Agents (LangGraph).
+Tokenizer, retrieval/RAG, LLM API, agents, fine-tuning (QLoRA/DPO), observability và LLM-as-judge.
 
-| Demo | Chủ đề | API key |
-|------|--------|---------|
+| Demo | Chủ đề | API / yêu cầu |
+|------|--------|---------------|
 | Demo1 | Tokenizer GPT-2 — đo token (tiếng Việt vs tiếng Anh) | — |
 | Demo2 | Tự train BPE — hiểu merge pair | — |
 | Demo3 | BM25 vs embedding — hybrid search cơ bản | — |
@@ -211,20 +218,27 @@ Tokenizer, retrieval/RAG, LLM API, prompt security, MCP và AI Agents (LangGraph
 | Demo13 | MCP server tối giản — tool + resource (stdio) | — |
 | Demo14 | LangGraph agent — tools, checkpointer, human-in-the-loop | OpenAI |
 | Demo15 | LangGraph router — phân tuyến multi-expert | OpenAI |
+| Demo16 | QLoRA SFT — fine-tune Qwen3-4B (4-bit + LoRA) | GPU |
+| Demo17 | DPO — alignment không cần reward model | GPU (+ Demo16) |
+| Demo18 | Langfuse tracing — observe RAG pipeline | OpenAI + Langfuse |
+| Demo19 | LLM-as-judge — chấm điểm RAG + Cohen's kappa | Anthropic |
+| Demo19-main | Judge + Langfuse + golden set (bản mở rộng) | OpenAI + Langfuse |
 
 **File / thư mục kèm theo**
 
 | Path | Vai trò |
 |------|---------|
-| `company_handbook.txt` | Corpus dài cho demo prompt caching |
+| `company_handbook.txt` | Corpus dài cho demo prompt caching / judge |
 | `mcp-demo/` | Ví dụ MCP client + server |
+| `train.jsonl` | Dataset fine-tune (Demo16) |
+| `gen_dataset.py` | Sinh dataset train (local) |
 
 ```bash
 python Phase4/Demo1.py
-python Phase4/Demo9.py
 python Phase4/Demo12.py
-python Phase4/Demo14.py
-python Phase4/Demo15.py
+python Phase4/Demo16.py   # cần GPU
+python Phase4/Demo18.py   # OpenAI + Langfuse
+python Phase4/Demo19.py   # Anthropic
 ```
 
 ---
@@ -301,7 +315,9 @@ Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
 | openai, instructor, pydantic | LLM API & structured output |
 | anthropic | Claude API — prompt caching (Demo6-anthropic) |
 | langchain, langgraph | Agents, router, human-in-the-loop |
+| peft, trl, bitsandbytes, datasets | QLoRA SFT / DPO fine-tuning |
 | ragas | Đánh giá pipeline RAG |
+| langfuse | Observability — tracing, cost, latency |
 | mcp, fastmcp | Model Context Protocol |
 | dotenv | Load API keys từ `.env` |
 | einops | Tensor manipulation |
@@ -317,7 +333,8 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 
 - Các file demo được thiết kế **chạy độc lập**, có comment giải thích bằng tiếng Việt.
 - Một số demo Phase 2/3 cần dataset hoặc GPU — kiểm tra comment đầu file trước khi chạy.
-- Phase 4: nhiều demo cần `.env` với `OPENAI_API_KEY` (và tùy chọn `ANTHROPIC_API_KEY`).
+- Phase 4: nhiều demo cần `.env` (`OPENAI_API_KEY`, tùy chọn `ANTHROPIC_API_KEY`, `LANGFUSE_*`).
+- Demo16/17 cần GPU (QLoRA 4-bit); Demo17 import model từ Demo16.
 - Phase 5–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link).
 - Đã ignore: `ai-roadmap/.venv`, `.env`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 

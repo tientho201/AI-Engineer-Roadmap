@@ -1,0 +1,1000 @@
+{"instruction": "5% của 102 là bao nhiêu?", "output": "5% của 102 là 5.1."}
+{"instruction": "Tính giá trị của biểu thức: 277 * 68", "output": "277 * 68 = 18836"}
+{"instruction": "Tính trung bình cộng của các số sau: 97, 99, 14", "output": "Trung bình cộng của 97, 99, 14 là 70.0."}
+{"instruction": "Tính giá trị của biểu thức: 443 + 374", "output": "443 + 374 = 817"}
+{"instruction": "Tính giá trị của biểu thức: 494 * 109", "output": "494 * 109 = 53846"}
+{"instruction": "Tính trung bình cộng của các số sau: 22, 78, 78, 96", "output": "Trung bình cộng của 22, 78, 78, 96 là 68.5."}
+{"instruction": "Bạn có thể mô tả Gradient Descent một cách dễ hiểu không?", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Tính giá trị của biểu thức: 441 + 483", "output": "441 + 483 = 924"}
+{"instruction": "Nêu định nghĩa của Gradient Descent trong lĩnh vực AI.", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "25% của 810 là bao nhiêu?", "output": "25% của 810 là 202.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 34, 5, 14, 77, 56", "output": "Trung bình cộng của 34, 5, 14, 77, 56 là 37.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 49, 5, 61", "output": "Trung bình cộng của 49, 5, 61 là 38.33."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi đang học lập trình", "output": "I am learning programming"}
+{"instruction": "Tính giá trị của biểu thức: 72 * 127", "output": "72 * 127 = 9144"}
+{"instruction": "Translate the following sentence to Vietnamese: Hanoi is the capital of Vietnam", "output": "Hà Nội là thủ đô của Việt Nam"}
+{"instruction": "Tính trung bình cộng của các số sau: 31, 35, 43, 41", "output": "Trung bình cộng của 31, 35, 43, 41 là 37.5."}
+{"instruction": "Tính giá trị của biểu thức: 143 + 80", "output": "143 + 80 = 223"}
+{"instruction": "10% của 600 là bao nhiêu?", "output": "10% của 600 là 60.0."}
+{"instruction": "Tính giá trị của biểu thức: 479 * 452", "output": "479 * 452 = 216508"}
+{"instruction": "Viết một email trang trọng để mời đối tác tham dự buổi họp vào tuần sau.", "output": "Kính gửi Quý đối tác,\n\nChúng tôi trân trọng kính mời Quý đối tác tham dự buổi họp trao đổi hợp tác vào tuần sau. Buổi họp sẽ tập trung thảo luận về kế hoạch triển khai và các bước tiếp theo.\n\nRất mong nhận được sự xác nhận tham dự từ Quý đối tác.\n\nTrân trọng cảm ơn."}
+{"instruction": "Tính trung bình cộng của các số sau: 66, 52, 87, 69, 43", "output": "Trung bình cộng của 66, 52, 87, 69, 43 là 63.4."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúc bạn ngủ ngon", "output": "Good night"}
+{"instruction": "25% của 108 là bao nhiêu?", "output": "25% của 108 là 27.0."}
+{"instruction": "Nước nào có diện tích lớn nhất thế giới?", "output": "Nga là quốc gia có diện tích lớn nhất thế giới."}
+{"instruction": "Epoch là gì?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính trung bình cộng của các số sau: 45, 69, 55", "output": "Trung bình cộng của 45, 69, 55 là 56.33."}
+{"instruction": "25% của 852 là bao nhiêu?", "output": "25% của 852 là 213.0."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi tên là Minh", "output": "My name is Minh"}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Sản phẩm này rẻ.\"", "output": "Sản phẩm này có mức giá vô cùng phải chăng, phù hợp với đa số người tiêu dùng."}
+{"instruction": "5% của 320 là bao nhiêu?", "output": "5% của 320 là 16.0."}
+{"instruction": "Nêu định nghĩa của Transformer trong lĩnh vực AI.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nmodel = AutoModelForCausalLM.from_pretrained(MODEL)\n```", "output": "Dòng code này tải một mô hình ngôn ngữ đã được huấn luyện sẵn (pretrained) từ HuggingFace Hub hoặc thư mục cục bộ, dựa trên tên/đường dẫn được chỉ định trong biến MODEL."}
+{"instruction": "Một năm có bao nhiêu ngày?", "output": "Một năm thường có 365 ngày, năm nhuận có 366 ngày."}
+{"instruction": "Hãy trình bày ngắn gọn về Gradient Descent.", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Giải thích đoạn code sau:\n```python\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Lỗi chia cho 0')\n```", "output": "Đoạn code này thử thực hiện phép chia cho 0, gây ra lỗi `ZeroDivisionError`, và khối `except` sẽ bắt lỗi đó để in ra thông báo thay vì làm chương trình bị crash."}
+{"instruction": "Tính giá trị của biểu thức: 261 + 253", "output": "261 + 253 = 514"}
+{"instruction": "20% của 853 là bao nhiêu?", "output": "20% của 853 là 170.6."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Cái này nó tốt hơn cái kia á.\"", "output": "Cái này tốt hơn cái kia."}
+{"instruction": "Translate the following sentence to Vietnamese: We need to finish the project before Friday", "output": "Chúng ta cần hoàn thành dự án trước thứ Sáu"}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 34, 23", "output": "Trung bình cộng của 15, 34, 23 là 24.0."}
+{"instruction": "Giải thích khái niệm Overfitting trong Machine Learning.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Tính giá trị của biểu thức: 425 * 322", "output": "425 * 322 = 136850"}
+{"instruction": "Tính giá trị của biểu thức: 64 - 499", "output": "64 - 499 = -435"}
+{"instruction": "Tính giá trị của biểu thức: 192 + 391", "output": "192 + 391 = 583"}
+{"instruction": "Tính trung bình cộng của các số sau: 92, 26, 10, 76", "output": "Trung bình cộng của 92, 26, 10, 76 là 51.0."}
+{"instruction": "Tính giá trị của biểu thức: 310 + 136", "output": "310 + 136 = 446"}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "Tính giá trị của biểu thức: 16 + 48", "output": "16 + 48 = 64"}
+{"instruction": "Tính trung bình cộng của các số sau: 1, 46, 39, 97", "output": "Trung bình cộng của 1, 46, 39, 97 là 45.75."}
+{"instruction": "Tokenization là gì?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 406 - 349", "output": "406 - 349 = 57"}
+{"instruction": "Tính trung bình cộng của các số sau: 27, 54, 50", "output": "Trung bình cộng của 27, 54, 50 là 43.67."}
+{"instruction": "5% của 684 là bao nhiêu?", "output": "5% của 684 là 34.2."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Cảm ơn bạn rất nhiều", "output": "Thank you very much"}
+{"instruction": "Tính giá trị của biểu thức: 324 + 31", "output": "324 + 31 = 355"}
+{"instruction": "Tính giá trị của biểu thức: 41 + 438", "output": "41 + 438 = 479"}
+{"instruction": "Nêu định nghĩa của Embedding trong lĩnh vực AI.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "20% của 59 là bao nhiêu?", "output": "20% của 59 là 11.8."}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "Tính giá trị của biểu thức: 36 * 24", "output": "36 * 24 = 864"}
+{"instruction": "Tính trung bình cộng của các số sau: 27, 56, 75, 78", "output": "Trung bình cộng của 27, 56, 75, 78 là 59.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 86, 15", "output": "Trung bình cộng của 61, 86, 15 là 54.0."}
+{"instruction": "Tính giá trị của biểu thức: 312 + 102", "output": "312 + 102 = 414"}
+{"instruction": "Tính giá trị của biểu thức: 117 - 396", "output": "117 - 396 = -279"}
+{"instruction": "Tính giá trị của biểu thức: 4 * 37", "output": "4 * 37 = 148"}
+{"instruction": "Tính giá trị của biểu thức: 351 + 167", "output": "351 + 167 = 518"}
+{"instruction": "Tính giá trị của biểu thức: 471 * 1", "output": "471 * 1 = 471"}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 72, 32, 16", "output": "Trung bình cộng của 7, 72, 32, 16 là 31.75."}
+{"instruction": "15% của 815 là bao nhiêu?", "output": "15% của 815 là 122.25."}
+{"instruction": "20% của 567 là bao nhiêu?", "output": "20% của 567 là 113.4."}
+{"instruction": "30% của 753 là bao nhiêu?", "output": "30% của 753 là 225.9."}
+{"instruction": "Bạn có thể mô tả Embedding một cách dễ hiểu không?", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Bạn có thể mô tả Learning Rate một cách dễ hiểu không?", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 52, 93, 22, 60", "output": "Trung bình cộng của 87, 52, 93, 22, 60 là 62.8."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 69, 4", "output": "Trung bình cộng của 80, 69, 4 là 51.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 3, 96", "output": "Trung bình cộng của 61, 3, 96 là 53.33."}
+{"instruction": "10% của 919 là bao nhiêu?", "output": "10% của 919 là 91.9."}
+{"instruction": "Nêu định nghĩa của Quantization trong lĩnh vực AI.", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính giá trị của biểu thức: 88 * 274", "output": "88 * 274 = 24112"}
+{"instruction": "Tính giá trị của biểu thức: 85 * 136", "output": "85 * 136 = 11560"}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 96, 23, 79", "output": "Trung bình cộng của 87, 96, 23, 79 là 71.25."}
+{"instruction": "Tính giá trị của biểu thức: 37 * 312", "output": "37 * 312 = 11544"}
+{"instruction": "Hãy trình bày ngắn gọn về RAG.", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Tính trung bình cộng của các số sau: 63, 4, 50, 44", "output": "Trung bình cộng của 63, 4, 50, 44 là 40.25."}
+{"instruction": "Translate the following sentence to Vietnamese: I am learning programming", "output": "Tôi đang học lập trình"}
+{"instruction": "Tính trung bình cộng của các số sau: 52, 90, 38, 71", "output": "Trung bình cộng của 52, 90, 38, 71 là 62.75."}
+{"instruction": "30% của 356 là bao nhiêu?", "output": "30% của 356 là 106.8."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hà Nội là thủ đô của Việt Nam", "output": "Hanoi is the capital of Vietnam"}
+{"instruction": "Learning Rate là gì?", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính giá trị của biểu thức: 98 + 49", "output": "98 + 49 = 147"}
+{"instruction": "Tính trung bình cộng của các số sau: 52, 43, 36", "output": "Trung bình cộng của 52, 43, 36 là 43.67."}
+{"instruction": "5% của 952 là bao nhiêu?", "output": "5% của 952 là 47.6."}
+{"instruction": "50% của 676 là bao nhiêu?", "output": "50% của 676 là 338.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 39, 52, 71, 1, 39", "output": "Trung bình cộng của 39, 52, 71, 1, 39 là 40.4."}
+{"instruction": "Embedding là gì?", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Giải thích khái niệm Gradient Descent trong Machine Learning.", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Tính giá trị của biểu thức: 338 - 221", "output": "338 - 221 = 117"}
+{"instruction": "Tính giá trị của biểu thức: 303 + 217", "output": "303 + 217 = 520"}
+{"instruction": "5% của 961 là bao nhiêu?", "output": "5% của 961 là 48.05."}
+{"instruction": "Tính trung bình cộng của các số sau: 30, 29, 4, 85", "output": "Trung bình cộng của 30, 29, 4, 85 là 37.0."}
+{"instruction": "Tính giá trị của biểu thức: 53 * 347", "output": "53 * 347 = 18391"}
+{"instruction": "10% của 317 là bao nhiêu?", "output": "10% của 317 là 31.7."}
+{"instruction": "Tính trung bình cộng của các số sau: 83, 55, 18", "output": "Trung bình cộng của 83, 55, 18 là 52.0."}
+{"instruction": "20% của 321 là bao nhiêu?", "output": "20% của 321 là 64.2."}
+{"instruction": "5% của 605 là bao nhiêu?", "output": "5% của 605 là 30.25."}
+{"instruction": "Nêu định nghĩa của Batch Size trong lĩnh vực AI.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính giá trị của biểu thức: 203 * 453", "output": "203 * 453 = 91959"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng tôi sẽ đi du lịch vào tháng tới", "output": "We will travel next month"}
+{"instruction": "Translate the following sentence to Vietnamese: I am very happy to meet you", "output": "Tôi rất vui được gặp bạn"}
+{"instruction": "Tính giá trị của biểu thức: 260 + 468", "output": "260 + 468 = 728"}
+{"instruction": "15% của 518 là bao nhiêu?", "output": "15% của 518 là 77.7."}
+{"instruction": "Translate the following sentence to Vietnamese: Hello", "output": "Xin chào"}
+{"instruction": "Tính giá trị của biểu thức: 280 + 215", "output": "280 + 215 = 495"}
+{"instruction": "LoRA là gì?", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính trung bình cộng của các số sau: 91, 56, 1", "output": "Trung bình cộng của 91, 56, 1 là 49.33."}
+{"instruction": "Hãy trình bày ngắn gọn về Learning Rate.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "5% của 152 là bao nhiêu?", "output": "5% của 152 là 7.6."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Tôi không đồng ý.\"", "output": "Tôi xin phép được đưa ra một góc nhìn khác về vấn đề này."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Cái app này lag.\"", "output": "Ứng dụng này đang gặp tình trạng phản hồi chậm, ảnh hưởng đến trải nghiệm người dùng."}
+{"instruction": "Tính giá trị của biểu thức: 237 + 128", "output": "237 + 128 = 365"}
+{"instruction": "Translate the following sentence to Vietnamese: Thank you very much", "output": "Cảm ơn bạn rất nhiều"}
+{"instruction": "5% của 65 là bao nhiêu?", "output": "5% của 65 là 3.25."}
+{"instruction": "Tính giá trị của biểu thức: 115 * 72", "output": "115 * 72 = 8280"}
+{"instruction": "5% của 272 là bao nhiêu?", "output": "5% của 272 là 13.6."}
+{"instruction": "Tóm tắt đoạn văn sau trong 1-2 câu: Fine-tuning mô hình ngôn ngữ lớn thường đòi hỏi tài nguyên tính toán khổng lồ. Kỹ thuật QLoRA ra đời nhằm giải quyết vấn đề này bằng cách lượng tử hóa mô hình gốc xuống 4-bit và chỉ huấn luyện một số lượng nhỏ tham số adapter LoRA, giúp giảm đáng kể yêu cầu về bộ nhớ GPU mà vẫn giữ được chất lượng fine-tuning tương đương.", "output": "QLoRA giúp fine-tuning mô hình lớn tiết kiệm tài nguyên bằng cách lượng tử hóa 4-bit và chỉ train một phần nhỏ tham số adapter."}
+{"instruction": "Giải thích khái niệm Dropout trong Machine Learning.", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "Tóm tắt đoạn văn sau trong 1-2 câu: Trí tuệ nhân tạo (AI) đang thay đổi mạnh mẽ nhiều ngành công nghiệp, từ y tế, giáo dục đến tài chính. Các mô hình ngôn ngữ lớn (LLM) như GPT hay Qwen có khả năng hiểu và sinh văn bản tự nhiên, giúp tự động hóa nhiều tác vụ vốn cần con người thực hiện thủ công. Tuy nhiên, việc triển khai AI cũng đặt ra nhiều thách thức về đạo đức, chi phí tính toán và độ tin cậy.", "output": "AI, đặc biệt là các mô hình ngôn ngữ lớn, đang cách mạng hóa nhiều ngành nghề nhờ khả năng xử lý ngôn ngữ tự nhiên, nhưng đi kèm với đó là các thách thức về đạo đức và chi phí."}
+{"instruction": "25% của 338 là bao nhiêu?", "output": "25% của 338 là 84.5."}
+{"instruction": "Tính giá trị của biểu thức: 227 * 414", "output": "227 * 414 = 93978"}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 57, 71", "output": "Trung bình cộng của 95, 57, 71 là 74.33."}
+{"instruction": "Hãy trình bày ngắn gọn về Quantization.", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính giá trị của biểu thức: 345 * 335", "output": "345 * 335 = 115575"}
+{"instruction": "Bạn có thể mô tả Quantization một cách dễ hiểu không?", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính giá trị của biểu thức: 190 + 182", "output": "190 + 182 = 372"}
+{"instruction": "Tính giá trị của biểu thức: 373 + 174", "output": "373 + 174 = 547"}
+{"instruction": "Giải thích khái niệm Learning Rate trong Machine Learning.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Translate the following sentence to Vietnamese: Good night", "output": "Chúc bạn ngủ ngon"}
+{"instruction": "Hãy trình bày ngắn gọn về Tokenization.", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 11, 37", "output": "Trung bình cộng của 85, 11, 37 là 44.33."}
+{"instruction": "Giải thích đoạn code sau:\n```python\ndef add(a, b):\n    return a + b\n```", "output": "Đây là một hàm tên `add`, nhận vào hai tham số `a` và `b`, và trả về tổng của chúng."}
+{"instruction": "Tính trung bình cộng của các số sau: 76, 73, 85, 4", "output": "Trung bình cộng của 76, 73, 85, 4 là 59.5."}
+{"instruction": "Tính giá trị của biểu thức: 446 - 321", "output": "446 - 321 = 125"}
+{"instruction": "Giải thích đoạn code sau:\n```python\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n```", "output": "Đây là định nghĩa một class tên `Animal` trong Python, có phương thức khởi tạo `__init__` nhận tham số `name` và lưu vào thuộc tính `self.name` của đối tượng."}
+{"instruction": "Hãy trình bày ngắn gọn về Attention Mechanism.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Tính giá trị của biểu thức: 35 + 464", "output": "35 + 464 = 499"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Bạn có thể là giúp tôi được không?\"", "output": "Bạn có thể giúp tôi được không?"}
+{"instruction": "30% của 184 là bao nhiêu?", "output": "30% của 184 là 55.2."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi thích đọc sách vào buổi tối", "output": "I like reading books in the evening"}
+{"instruction": "20% của 648 là bao nhiêu?", "output": "20% của 648 là 129.6."}
+{"instruction": "Translate the following sentence to Vietnamese: How are you?", "output": "Bạn khỏe không?"}
+{"instruction": "Bạn có thể mô tả Tokenization một cách dễ hiểu không?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 413 - 162", "output": "413 - 162 = 251"}
+{"instruction": "Tính trung bình cộng của các số sau: 11, 18, 20, 30, 50", "output": "Trung bình cộng của 11, 18, 20, 30, 50 là 25.8."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nfor i in range(10):\n    print(i)\n```", "output": "Đoạn code này dùng vòng lặp for để lặp qua các số từ 0 đến 9 và in từng số ra màn hình."}
+{"instruction": "Tính giá trị của biểu thức: 449 - 368", "output": "449 - 368 = 81"}
+{"instruction": "Tính giá trị của biểu thức: 454 - 442", "output": "454 - 442 = 12"}
+{"instruction": "15% của 710 là bao nhiêu?", "output": "15% của 710 là 106.5."}
+{"instruction": "15% của 923 là bao nhiêu?", "output": "15% của 923 là 138.45."}
+{"instruction": "Bạn có thể mô tả RAG một cách dễ hiểu không?", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Tính giá trị của biểu thức: 296 * 99", "output": "296 * 99 = 29304"}
+{"instruction": "Tính trung bình cộng của các số sau: 88, 77, 16, 73", "output": "Trung bình cộng của 88, 77, 16, 73 là 63.5."}
+{"instruction": "Tính giá trị của biểu thức: 444 - 52", "output": "444 - 52 = 392"}
+{"instruction": "50% của 307 là bao nhiêu?", "output": "50% của 307 là 153.5."}
+{"instruction": "Hãy trình bày ngắn gọn về Embedding.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Bạn có thể mô tả LoRA một cách dễ hiểu không?", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính giá trị của biểu thức: 343 + 249", "output": "343 + 249 = 592"}
+{"instruction": "Tính giá trị của biểu thức: 383 - 300", "output": "383 - 300 = 83"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 58, 34, 97, 32", "output": "Trung bình cộng của 61, 58, 34, 97, 32 là 56.4."}
+{"instruction": "Giải thích khái niệm Batch Size trong Machine Learning.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính giá trị của biểu thức: 230 - 302", "output": "230 - 302 = -72"}
+{"instruction": "Tính trung bình cộng của các số sau: 20, 91, 28, 9, 54", "output": "Trung bình cộng của 20, 91, 28, 9, 54 là 40.4."}
+{"instruction": "Hãy trình bày ngắn gọn về Machine Learning.", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính trung bình cộng của các số sau: 4, 40, 74, 87, 49", "output": "Trung bình cộng của 4, 40, 74, 87, 49 là 50.8."}
+{"instruction": "20% của 699 là bao nhiêu?", "output": "20% của 699 là 139.8."}
+{"instruction": "10% của 371 là bao nhiêu?", "output": "10% của 371 là 37.1."}
+{"instruction": "Viết một email trang trọng để khiếu nại về sản phẩm bị lỗi.", "output": "Kính gửi Bộ phận Chăm sóc khách hàng,\n\nTôi viết email này để phản ánh về sản phẩm tôi vừa nhận được bị lỗi kỹ thuật. Tôi mong Quý công ty kiểm tra và hỗ trợ đổi trả hoặc sửa chữa trong thời gian sớm nhất.\n\nMong nhận được phản hồi sớm từ Quý công ty.\n\nTrân trọng."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Chúng ta nên là phải cố gắng hơn.\"", "output": "Chúng ta nên cố gắng hơn."}
+{"instruction": "20% của 547 là bao nhiêu?", "output": "20% của 547 là 109.4."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Con mèo nó đang ngủ trên ghế.\"", "output": "Con mèo đang ngủ trên ghế."}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 45, 29, 84, 9", "output": "Trung bình cộng của 7, 45, 29, 84, 9 là 34.8."}
+{"instruction": "30% của 727 là bao nhiêu?", "output": "30% của 727 là 218.1."}
+{"instruction": "Tính giá trị của biểu thức: 447 - 311", "output": "447 - 311 = 136"}
+{"instruction": "Hãy trình bày ngắn gọn về Overfitting.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Tính trung bình cộng của các số sau: 6, 46, 27, 88", "output": "Trung bình cộng của 6, 46, 27, 88 là 41.75."}
+{"instruction": "Tính trung bình cộng của các số sau: 53, 80, 96, 20, 31", "output": "Trung bình cộng của 53, 80, 96, 20, 31 là 56.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 99, 17, 82, 34", "output": "Trung bình cộng của 99, 17, 82, 34 là 58.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 20, 70, 5, 48, 75", "output": "Trung bình cộng của 20, 70, 5, 48, 75 là 43.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 50, 74, 25, 33", "output": "Trung bình cộng của 15, 50, 74, 25, 33 là 39.4."}
+{"instruction": "Tính giá trị của biểu thức: 41 - 283", "output": "41 - 283 = -242"}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 99, 100, 67, 63", "output": "Trung bình cộng của 36, 99, 100, 67, 63 là 73.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 39, 65, 40, 86, 53", "output": "Trung bình cộng của 39, 65, 40, 86, 53 là 56.6."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi rất vui được gặp bạn", "output": "I am very happy to meet you"}
+{"instruction": "Tính giá trị của biểu thức: 232 + 62", "output": "232 + 62 = 294"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng ta cần hoàn thành dự án trước thứ Sáu", "output": "We need to finish the project before Friday"}
+{"instruction": "GPU khác CPU như thế nào?", "output": "CPU được tối ưu cho xử lý tuần tự với ít lõi mạnh, trong khi GPU có hàng nghìn lõi nhỏ, tối ưu cho xử lý song song, phù hợp với các phép tính ma trận trong deep learning."}
+{"instruction": "Tính giá trị của biểu thức: 223 - 81", "output": "223 - 81 = 142"}
+{"instruction": "Tính trung bình cộng của các số sau: 19, 4, 6", "output": "Trung bình cộng của 19, 4, 6 là 9.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 82, 80, 43, 12", "output": "Trung bình cộng của 85, 82, 80, 43, 12 là 60.4."}
+{"instruction": "Tính giá trị của biểu thức: 367 * 333", "output": "367 * 333 = 122211"}
+{"instruction": "Tính giá trị của biểu thức: 138 + 34", "output": "138 + 34 = 172"}
+{"instruction": "Bạn có thể mô tả Attention Mechanism một cách dễ hiểu không?", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "10% của 156 là bao nhiêu?", "output": "10% của 156 là 15.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 41, 85, 16", "output": "Trung bình cộng của 80, 41, 85, 16 là 55.5."}
+{"instruction": "Tính giá trị của biểu thức: 196 - 306", "output": "196 - 306 = -110"}
+{"instruction": "Machine Learning là gì?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 460 - 299", "output": "460 - 299 = 161"}
+{"instruction": "5% của 240 là bao nhiêu?", "output": "5% của 240 là 12.0."}
+{"instruction": "5% của 95 là bao nhiêu?", "output": "5% của 95 là 4.75."}
+{"instruction": "Viết một email trang trọng để thông báo lịch nghỉ lễ cho nhân viên.", "output": "Kính gửi toàn thể nhân viên,\n\nCông ty xin thông báo lịch nghỉ lễ sắp tới để mọi người chủ động sắp xếp công việc cá nhân. Chi tiết lịch nghỉ sẽ được cập nhật trên hệ thống nội bộ.\n\nChúc mọi người có kỳ nghỉ vui vẻ và an toàn.\n\nTrân trọng."}
+{"instruction": "25% của 302 là bao nhiêu?", "output": "25% của 302 là 75.5."}
+{"instruction": "Nêu định nghĩa của Learning Rate trong lĩnh vực AI.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "20% của 211 là bao nhiêu?", "output": "20% của 211 là 42.2."}
+{"instruction": "Giải thích khái niệm Attention Mechanism trong Machine Learning.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Translate the following sentence to Vietnamese: See you later", "output": "Hẹn gặp lại bạn sau"}
+{"instruction": "Bạn có thể mô tả Fine-tuning một cách dễ hiểu không?", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Giải thích khái niệm Transformer trong Machine Learning.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Deadline gấp quá.\"", "output": "Thời hạn hoàn thành công việc khá eo hẹp, cần được ưu tiên xử lý sớm."}
+{"instruction": "Tính giá trị của biểu thức: 14 + 288", "output": "14 + 288 = 302"}
+{"instruction": "Giải thích khái niệm LoRA trong Machine Learning.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Dropout là gì?", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "Tính giá trị của biểu thức: 450 - 426", "output": "450 - 426 = 24"}
+{"instruction": "Translate the following sentence to Vietnamese: We will travel next month", "output": "Chúng tôi sẽ đi du lịch vào tháng tới"}
+{"instruction": "Nêu định nghĩa của Dropout trong lĩnh vực AI.", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "25% của 686 là bao nhiêu?", "output": "25% của 686 là 171.5."}
+{"instruction": "Hãy trình bày ngắn gọn về Batch Size.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 92, 90, 50, 64", "output": "Trung bình cộng của 25, 92, 90, 50, 64 là 64.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 43, 70, 60, 54", "output": "Trung bình cộng của 43, 70, 60, 54 là 56.75."}
+{"instruction": "Tính giá trị của biểu thức: 441 + 170", "output": "441 + 170 = 611"}
+{"instruction": "Ai là tác giả của tác phẩm Truyện Kiều?", "output": "Tác giả của Truyện Kiều là đại thi hào Nguyễn Du."}
+{"instruction": "Thủ đô của Nhật Bản là gì?", "output": "Thủ đô của Nhật Bản là Tokyo."}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Nêu định nghĩa của RAG trong lĩnh vực AI.", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Tính giá trị của biểu thức: 275 + 230", "output": "275 + 230 = 505"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Đây là bữa ăn ngon nhất tôi từng ăn", "output": "This is the best meal I have ever had"}
+{"instruction": "Tính trung bình cộng của các số sau: 99, 36, 45", "output": "Trung bình cộng của 99, 36, 45 là 60.0."}
+{"instruction": "5% của 460 là bao nhiêu?", "output": "5% của 460 là 23.0."}
+{"instruction": "Tính giá trị của biểu thức: 51 * 26", "output": "51 * 26 = 1326"}
+{"instruction": "Tính giá trị của biểu thức: 415 + 446", "output": "415 + 446 = 861"}
+{"instruction": "Bạn có thể mô tả Dropout một cách dễ hiểu không?", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "Tính giá trị của biểu thức: 389 + 413", "output": "389 + 413 = 802"}
+{"instruction": "RAG là gì?", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Tính trung bình cộng của các số sau: 90, 3, 98, 74, 49", "output": "Trung bình cộng của 90, 3, 98, 74, 49 là 62.8."}
+{"instruction": "Tính giá trị của biểu thức: 358 - 217", "output": "358 - 217 = 141"}
+{"instruction": "Tính giá trị của biểu thức: 271 * 129", "output": "271 * 129 = 34959"}
+{"instruction": "15% của 185 là bao nhiêu?", "output": "15% của 185 là 27.75."}
+{"instruction": "Tính trung bình cộng của các số sau: 29, 23, 90, 67", "output": "Trung bình cộng của 29, 23, 90, 67 là 52.25."}
+{"instruction": "25% của 903 là bao nhiêu?", "output": "25% của 903 là 225.75."}
+{"instruction": "Tính giá trị của biểu thức: 468 * 483", "output": "468 * 483 = 226044"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Xin chào", "output": "Hello"}
+{"instruction": "Giải thích khái niệm Quantization trong Machine Learning.", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Translate the following sentence to Vietnamese: This is the best meal I have ever had", "output": "Đây là bữa ăn ngon nhất tôi từng ăn"}
+{"instruction": "Tính trung bình cộng của các số sau: 26, 47, 56, 9, 86", "output": "Trung bình cộng của 26, 47, 56, 9, 86 là 44.8."}
+{"instruction": "Hãy trình bày ngắn gọn về LoRA.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính giá trị của biểu thức: 349 + 370", "output": "349 + 370 = 719"}
+{"instruction": "Tính giá trị của biểu thức: 374 * 236", "output": "374 * 236 = 88264"}
+{"instruction": "Quantization là gì?", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính giá trị của biểu thức: 277 * 489", "output": "277 * 489 = 135453"}
+{"instruction": "Tính trung bình cộng của các số sau: 81, 32, 14, 90, 99", "output": "Trung bình cộng của 81, 32, 14, 90, 99 là 63.2."}
+{"instruction": "Tính giá trị của biểu thức: 109 - 336", "output": "109 - 336 = -227"}
+{"instruction": "Giải thích khái niệm Fine-tuning trong Machine Learning.", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Giải thích khái niệm Machine Learning trong Machine Learning.", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 40, 29", "output": "Trung bình cộng của 87, 40, 29 là 52.0."}
+{"instruction": "50% của 268 là bao nhiêu?", "output": "50% của 268 là 134.0."}
+{"instruction": "Tính giá trị của biểu thức: 192 * 225", "output": "192 * 225 = 43200"}
+{"instruction": "30% của 763 là bao nhiêu?", "output": "30% của 763 là 228.9."}
+{"instruction": "Bạn có thể mô tả Transformer một cách dễ hiểu không?", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Bạn có thể mô tả Overfitting một cách dễ hiểu không?", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Bạn có thể mô tả Batch Size một cách dễ hiểu không?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính giá trị của biểu thức: 387 + 25", "output": "387 + 25 = 412"}
+{"instruction": "50% của 603 là bao nhiêu?", "output": "50% của 603 là 301.5."}
+{"instruction": "Tính giá trị của biểu thức: 328 + 58", "output": "328 + 58 = 386"}
+{"instruction": "Tính giá trị của biểu thức: 2 * 489", "output": "2 * 489 = 978"}
+{"instruction": "Tính trung bình cộng của các số sau: 28, 59, 42, 44", "output": "Trung bình cộng của 28, 59, 42, 44 là 43.25."}
+{"instruction": "Tính giá trị của biểu thức: 11 * 302", "output": "11 * 302 = 3322"}
+{"instruction": "Tính giá trị của biểu thức: 491 - 391", "output": "491 - 391 = 100"}
+{"instruction": "Tính giá trị của biểu thức: 53 - 48", "output": "53 - 48 = 5"}
+{"instruction": "Tính trung bình cộng của các số sau: 86, 14, 46", "output": "Trung bình cộng của 86, 14, 46 là 48.67."}
+{"instruction": "Transformer là gì?", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Tính trung bình cộng của các số sau: 55, 72, 2, 15, 10", "output": "Trung bình cộng của 55, 72, 2, 15, 10 là 30.8."}
+{"instruction": "Ngôn ngữ lập trình Python được tạo ra bởi ai?", "output": "Python được tạo ra bởi Guido van Rossum, phát hành lần đầu vào năm 1991."}
+{"instruction": "Overfitting là gì?", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Giải thích khái niệm RAG trong Machine Learning.", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "20% của 290 là bao nhiêu?", "output": "20% của 290 là 58.0."}
+{"instruction": "Tính giá trị của biểu thức: 498 + 257", "output": "498 + 257 = 755"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Anh ấy làm việc chăm chỉ mỗi ngày", "output": "He works hard every day"}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 54, 86", "output": "Trung bình cộng của 25, 54, 86 là 55.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 100, 21, 40, 14", "output": "Trung bình cộng của 15, 100, 21, 40, 14 là 38.0."}
+{"instruction": "20% của 342 là bao nhiêu?", "output": "20% của 342 là 68.4."}
+{"instruction": "25% của 172 là bao nhiêu?", "output": "25% của 172 là 43.0."}
+{"instruction": "50% của 132 là bao nhiêu?", "output": "50% của 132 là 66.0."}
+{"instruction": "Tính giá trị của biểu thức: 338 * 244", "output": "338 * 244 = 82472"}
+{"instruction": "Nêu định nghĩa của Epoch trong lĩnh vực AI.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Giải thích khái niệm Embedding trong Machine Learning.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Tính trung bình cộng của các số sau: 54, 69, 96, 95", "output": "Trung bình cộng của 54, 69, 96, 95 là 78.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 43, 53", "output": "Trung bình cộng của 95, 43, 53 là 63.67."}
+{"instruction": "Tính giá trị của biểu thức: 387 * 374", "output": "387 * 374 = 144738"}
+{"instruction": "Tính trung bình cộng của các số sau: 18, 60, 86, 68", "output": "Trung bình cộng của 18, 60, 86, 68 là 58.0."}
+{"instruction": "Translate the following sentence to Vietnamese: He works hard every day", "output": "Anh ấy làm việc chăm chỉ mỗi ngày"}
+{"instruction": "Translate the following sentence to Vietnamese: I like reading books in the evening", "output": "Tôi thích đọc sách vào buổi tối"}
+{"instruction": "Tính giá trị của biểu thức: 123 + 30", "output": "123 + 30 = 153"}
+{"instruction": "Tính giá trị của biểu thức: 457 + 280", "output": "457 + 280 = 737"}
+{"instruction": "25% của 719 là bao nhiêu?", "output": "25% của 719 là 179.75."}
+{"instruction": "Translate the following sentence to Vietnamese: The weather is so nice today", "output": "Hôm nay trời đẹp quá"}
+{"instruction": "Tính giá trị của biểu thức: 116 - 33", "output": "116 - 33 = 83"}
+{"instruction": "Tính giá trị của biểu thức: 428 + 187", "output": "428 + 187 = 615"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Tôi rất là thích món ăn này lắm luôn.\"", "output": "Tôi rất thích món ăn này."}
+{"instruction": "Tính giá trị của biểu thức: 79 + 322", "output": "79 + 322 = 401"}
+{"instruction": "Tính giá trị của biểu thức: 205 * 344", "output": "205 * 344 = 70520"}
+{"instruction": "Tính giá trị của biểu thức: 353 + 286", "output": "353 + 286 = 639"}
+{"instruction": "Fine-tuning là gì?", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Tính giá trị của biểu thức: 393 + 65", "output": "393 + 65 = 458"}
+{"instruction": "Tính trung bình cộng của các số sau: 28, 60, 90, 33, 99", "output": "Trung bình cộng của 28, 60, 90, 33, 99 là 62.0."}
+{"instruction": "15% của 428 là bao nhiêu?", "output": "15% của 428 là 64.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 23, 53, 4", "output": "Trung bình cộng của 23, 53, 4 là 26.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 20, 31", "output": "Trung bình cộng của 80, 20, 31 là 43.67."}
+{"instruction": "Nêu định nghĩa của Attention Mechanism trong lĩnh vực AI.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Tính giá trị của biểu thức: 288 - 276", "output": "288 - 276 = 12"}
+{"instruction": "Tính trung bình cộng của các số sau: 42, 60, 57, 57, 87", "output": "Trung bình cộng của 42, 60, 57, 57, 87 là 60.6."}
+{"instruction": "Tính giá trị của biểu thức: 480 * 350", "output": "480 * 350 = 168000"}
+{"instruction": "30% của 58 là bao nhiêu?", "output": "30% của 58 là 17.4."}
+{"instruction": "Nêu định nghĩa của Fine-tuning trong lĩnh vực AI.", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Tính giá trị của biểu thức: 264 - 122", "output": "264 - 122 = 142"}
+{"instruction": "Tính giá trị của biểu thức: 195 * 139", "output": "195 * 139 = 27105"}
+{"instruction": "Tính giá trị của biểu thức: 380 + 141", "output": "380 + 141 = 521"}
+{"instruction": "Tính giá trị của biểu thức: 306 - 33", "output": "306 - 33 = 273"}
+{"instruction": "Tính giá trị của biểu thức: 449 - 369", "output": "449 - 369 = 80"}
+{"instruction": "Nêu định nghĩa của Overfitting trong lĩnh vực AI.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Nêu định nghĩa của Tokenization trong lĩnh vực AI.", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "30% của 643 là bao nhiêu?", "output": "30% của 643 là 192.9."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Tôi đi học vào hôm qua rồi.\"", "output": "Hôm qua tôi đã đi học."}
+{"instruction": "Tính giá trị của biểu thức: 217 - 211", "output": "217 - 211 = 6"}
+{"instruction": "15% của 209 là bao nhiêu?", "output": "15% của 209 là 31.35."}
+{"instruction": "20% của 220 là bao nhiêu?", "output": "20% của 220 là 44.0."}
+{"instruction": "Tính giá trị của biểu thức: 217 - 94", "output": "217 - 94 = 123"}
+{"instruction": "15% của 770 là bao nhiêu?", "output": "15% của 770 là 115.5."}
+{"instruction": "30% của 265 là bao nhiêu?", "output": "30% của 265 là 79.5."}
+{"instruction": "5% của 659 là bao nhiêu?", "output": "5% của 659 là 32.95."}
+{"instruction": "Viết một email trang trọng để xin nghỉ phép 2 ngày vì lý do gia đình.", "output": "Kính gửi Anh/Chị,\n\nEm viết email này để xin phép nghỉ 2 ngày làm việc do có việc gia đình đột xuất. Em sẽ bàn giao công việc đầy đủ trước khi nghỉ và sẵn sàng hỗ trợ từ xa nếu cần thiết.\n\nMong Anh/Chị xem xét và chấp thuận.\n\nEm cảm ơn Anh/Chị.\nTrân trọng."}
+{"instruction": "Tính trung bình cộng của các số sau: 19, 56, 17, 6, 40", "output": "Trung bình cộng của 19, 56, 17, 6, 40 là 27.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 65, 55, 71, 58, 21", "output": "Trung bình cộng của 65, 55, 71, 58, 21 là 54.0."}
+{"instruction": "Tính giá trị của biểu thức: 118 + 302", "output": "118 + 302 = 420"}
+{"instruction": "Hãy trình bày ngắn gọn về Transformer.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Tại sao cần chuẩn hóa dữ liệu trước khi huấn luyện mô hình?", "output": "Chuẩn hóa dữ liệu giúp các đặc trưng có cùng thang đo, tránh việc một số đặc trưng có giá trị lớn lấn át các đặc trưng khác, giúp mô hình hội tụ nhanh và ổn định hơn."}
+{"instruction": "Tính giá trị của biểu thức: 186 + 113", "output": "186 + 113 = 299"}
+{"instruction": "Tính giá trị của biểu thức: 103 - 366", "output": "103 - 366 = -263"}
+{"instruction": "Batch Size là gì?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Bạn khỏe không?", "output": "How are you?"}
+{"instruction": "10% của 548 là bao nhiêu?", "output": "10% của 548 là 54.8."}
+{"instruction": "15% của 585 là bao nhiêu?", "output": "15% của 585 là 87.75."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 79, 99", "output": "Trung bình cộng của 61, 79, 99 là 79.67."}
+{"instruction": "50% của 741 là bao nhiêu?", "output": "50% của 741 là 370.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 24, 7, 34, 49", "output": "Trung bình cộng của 24, 7, 34, 49 là 28.5."}
+{"instruction": "Hãy trình bày ngắn gọn về Fine-tuning.", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Hãy trình bày ngắn gọn về Epoch.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "VRAM là gì và tại sao nó quan trọng khi train mô hình AI?", "output": "VRAM (Video RAM) là bộ nhớ trên card đồ họa (GPU), dùng để lưu trữ trọng số mô hình, dữ liệu batch và gradient trong quá trình huấn luyện. VRAM càng lớn thì có thể train mô hình lớn hơn hoặc với batch size lớn hơn."}
+{"instruction": "Tính giá trị của biểu thức: 350 * 454", "output": "350 * 454 = 158900"}
+{"instruction": "Attention Mechanism là gì?", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Tính giá trị của biểu thức: 126 - 84", "output": "126 - 84 = 42"}
+{"instruction": "15% của 568 là bao nhiêu?", "output": "15% của 568 là 85.2."}
+{"instruction": "Translate the following sentence to Vietnamese: My name is Minh", "output": "Tôi tên là Minh"}
+{"instruction": "10% của 401 là bao nhiêu?", "output": "10% của 401 là 40.1."}
+{"instruction": "Tính giá trị của biểu thức: 450 + 291", "output": "450 + 291 = 741"}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 97, 54, 33", "output": "Trung bình cộng của 36, 97, 54, 33 là 55.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 26, 59, 45", "output": "Trung bình cộng của 26, 59, 45 là 43.33."}
+{"instruction": "Tính giá trị của biểu thức: 418 * 36", "output": "418 * 36 = 15048"}
+{"instruction": "Hãy trình bày ngắn gọn về Dropout.", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "Tính giá trị của biểu thức: 431 * 328", "output": "431 * 328 = 141368"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Anh ấy là 1 người tốt bụng lắm.\"", "output": "Anh ấy là một người rất tốt bụng."}
+{"instruction": "Tính giá trị của biểu thức: 235 - 74", "output": "235 - 74 = 161"}
+{"instruction": "30% của 479 là bao nhiêu?", "output": "30% của 479 là 143.7."}
+{"instruction": "Tính giá trị của biểu thức: 344 * 137", "output": "344 * 137 = 47128"}
+{"instruction": "Tính giá trị của biểu thức: 402 - 243", "output": "402 - 243 = 159"}
+{"instruction": "30% của 735 là bao nhiêu?", "output": "30% của 735 là 220.5."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hẹn gặp lại bạn sau", "output": "See you later"}
+{"instruction": "Tính giá trị của biểu thức: 51 - 32", "output": "51 - 32 = 19"}
+{"instruction": "Tóm tắt đoạn văn sau trong 1-2 câu: Biến đổi khí hậu là một trong những thách thức lớn nhất của nhân loại trong thế kỷ 21. Nhiệt độ trái đất tăng lên do phát thải khí nhà kính đã gây ra hiện tượng băng tan, mực nước biển dâng và thời tiết cực đoan. Nhiều quốc gia đang nỗ lực chuyển đổi sang năng lượng tái tạo để giảm thiểu tác động.", "output": "Biến đổi khí hậu gây ra nhiều hệ lụy nghiêm trọng như băng tan và thời tiết cực đoan, thúc đẩy các quốc gia chuyển sang năng lượng tái tạo."}
+{"instruction": "Tính trung bình cộng của các số sau: 31, 36, 57, 10, 92", "output": "Trung bình cộng của 31, 36, 57, 10, 92 là 45.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 94, 41, 56, 78", "output": "Trung bình cộng của 94, 41, 56, 78 là 67.25."}
+{"instruction": "15% của 899 là bao nhiêu?", "output": "15% của 899 là 134.85."}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Tính giá trị của biểu thức: 385 * 137", "output": "385 * 137 = 52745"}
+{"instruction": "15% của 244 là bao nhiêu?", "output": "15% của 244 là 36.6."}
+{"instruction": "Tính giá trị của biểu thức: 44 - 375", "output": "44 - 375 = -331"}
+{"instruction": "Giải thích khái niệm Tokenization trong Machine Learning.", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 175 - 58", "output": "175 - 58 = 117"}
+{"instruction": "Tính giá trị của biểu thức: 296 + 243", "output": "296 + 243 = 539"}
+{"instruction": "Tính giá trị của biểu thức: 166 + 251", "output": "166 + 251 = 417"}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 32, 35, 21, 90", "output": "Trung bình cộng của 95, 32, 35, 21, 90 là 54.6."}
+{"instruction": "Bạn có thể mô tả Machine Learning một cách dễ hiểu không?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "50% của 321 là bao nhiêu?", "output": "50% của 321 là 160.5."}
+{"instruction": "10% của 593 là bao nhiêu?", "output": "10% của 593 là 59.3."}
+{"instruction": "5% của 658 là bao nhiêu?", "output": "5% của 658 là 32.9."}
+{"instruction": "25% của 886 là bao nhiêu?", "output": "25% của 886 là 221.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 69, 88, 93, 95, 95", "output": "Trung bình cộng của 69, 88, 93, 95, 95 là 88.0."}
+{"instruction": "Tính giá trị của biểu thức: 58 - 476", "output": "58 - 476 = -418"}
+{"instruction": "Tính trung bình cộng của các số sau: 32, 19, 84, 89", "output": "Trung bình cộng của 32, 19, 84, 89 là 56.0."}
+{"instruction": "10% của 950 là bao nhiêu?", "output": "10% của 950 là 95.0."}
+{"instruction": "Nêu định nghĩa của Machine Learning trong lĩnh vực AI.", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 143 * 233", "output": "143 * 233 = 33319"}
+{"instruction": "20% của 52 là bao nhiêu?", "output": "20% của 52 là 10.4."}
+{"instruction": "Tính giá trị của biểu thức: 50 - 184", "output": "50 - 184 = -134"}
+{"instruction": "Tính trung bình cộng của các số sau: 6, 97, 4, 32, 26", "output": "Trung bình cộng của 6, 97, 4, 32, 26 là 33.0."}
+{"instruction": "5% của 108 là bao nhiêu?", "output": "5% của 108 là 5.4."}
+{"instruction": "Tính trung bình cộng của các số sau: 66, 61, 95", "output": "Trung bình cộng của 66, 61, 95 là 74.0."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Ngày mai tôi sẽ đi làm sớm hơn mọi khi.\"", "output": "Ngày mai tôi sẽ đi làm sớm hơn thường lệ."}
+{"instruction": "20% của 218 là bao nhiêu?", "output": "20% của 218 là 43.6."}
+{"instruction": "Giải thích khái niệm Epoch trong Machine Learning.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "25% của 647 là bao nhiêu?", "output": "25% của 647 là 161.75."}
+{"instruction": "50% của 998 là bao nhiêu?", "output": "50% của 998 là 499.0."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hôm nay trời đẹp quá", "output": "The weather is so nice today"}
+{"instruction": "Tính giá trị của biểu thức: 128 + 99", "output": "128 + 99 = 227"}
+{"instruction": "Tính trung bình cộng của các số sau: 59, 54, 81", "output": "Trung bình cộng của 59, 54, 81 là 64.67."}
+{"instruction": "5% của 819 là bao nhiêu?", "output": "5% của 819 là 40.95."}
+{"instruction": "Gradient Descent là gì?", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Viết một email trang trọng để cảm ơn khách hàng đã sử dụng dịch vụ.", "output": "Kính gửi Quý khách hàng,\n\nChúng tôi xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ của chúng tôi trong thời gian qua. Sự hài lòng của Quý khách là động lực để chúng tôi không ngừng cải thiện chất lượng.\n\nRất mong tiếp tục được đồng hành cùng Quý khách trong thời gian tới.\n\nTrân trọng."}
+{"instruction": "Tính trung bình cộng của các số sau: 77, 41, 97, 57, 79", "output": "Trung bình cộng của 77, 41, 97, 57, 79 là 70.2."}
+{"instruction": "Tính giá trị của biểu thức: 450 - 426", "output": "450 - 426 = 24"}
+{"instruction": "Tính giá trị của biểu thức: 406 - 349", "output": "406 - 349 = 57"}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 32, 35, 21, 90", "output": "Trung bình cộng của 95, 32, 35, 21, 90 là 54.6."}
+{"instruction": "Tính giá trị của biểu thức: 195 * 139", "output": "195 * 139 = 27105"}
+{"instruction": "15% của 568 là bao nhiêu?", "output": "15% của 568 là 85.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 27, 54, 50", "output": "Trung bình cộng của 27, 54, 50 là 43.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 92, 90, 50, 64", "output": "Trung bình cộng của 25, 92, 90, 50, 64 là 64.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 52, 90, 38, 71", "output": "Trung bình cộng của 52, 90, 38, 71 là 62.75."}
+{"instruction": "Hãy trình bày ngắn gọn về Epoch.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính trung bình cộng của các số sau: 11, 18, 20, 30, 50", "output": "Trung bình cộng của 11, 18, 20, 30, 50 là 25.8."}
+{"instruction": "Translate the following sentence to Vietnamese: Hanoi is the capital of Vietnam", "output": "Hà Nội là thủ đô của Việt Nam"}
+{"instruction": "Nước nào có diện tích lớn nhất thế giới?", "output": "Nga là quốc gia có diện tích lớn nhất thế giới."}
+{"instruction": "Tính giá trị của biểu thức: 343 + 249", "output": "343 + 249 = 592"}
+{"instruction": "20% của 218 là bao nhiêu?", "output": "20% của 218 là 43.6."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Sản phẩm này rẻ.\"", "output": "Sản phẩm này có mức giá vô cùng phải chăng, phù hợp với đa số người tiêu dùng."}
+{"instruction": "Translate the following sentence to Vietnamese: How are you?", "output": "Bạn khỏe không?"}
+{"instruction": "Hãy trình bày ngắn gọn về Overfitting.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Tính trung bình cộng của các số sau: 39, 65, 40, 86, 53", "output": "Trung bình cộng của 39, 65, 40, 86, 53 là 56.6."}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 69, 4", "output": "Trung bình cộng của 80, 69, 4 là 51.0."}
+{"instruction": "Tóm tắt đoạn văn sau trong 1-2 câu: Fine-tuning mô hình ngôn ngữ lớn thường đòi hỏi tài nguyên tính toán khổng lồ. Kỹ thuật QLoRA ra đời nhằm giải quyết vấn đề này bằng cách lượng tử hóa mô hình gốc xuống 4-bit và chỉ huấn luyện một số lượng nhỏ tham số adapter LoRA, giúp giảm đáng kể yêu cầu về bộ nhớ GPU mà vẫn giữ được chất lượng fine-tuning tương đương.", "output": "QLoRA giúp fine-tuning mô hình lớn tiết kiệm tài nguyên bằng cách lượng tử hóa 4-bit và chỉ train một phần nhỏ tham số adapter."}
+{"instruction": "50% của 603 là bao nhiêu?", "output": "50% của 603 là 301.5."}
+{"instruction": "25% của 302 là bao nhiêu?", "output": "25% của 302 là 75.5."}
+{"instruction": "20% của 342 là bao nhiêu?", "output": "20% của 342 là 68.4."}
+{"instruction": "10% của 548 là bao nhiêu?", "output": "10% của 548 là 54.8."}
+{"instruction": "Tính trung bình cộng của các số sau: 66, 61, 95", "output": "Trung bình cộng của 66, 61, 95 là 74.0."}
+{"instruction": "5% của 952 là bao nhiêu?", "output": "5% của 952 là 47.6."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hà Nội là thủ đô của Việt Nam", "output": "Hanoi is the capital of Vietnam"}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Giải thích khái niệm Overfitting trong Machine Learning.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Tính giá trị của biểu thức: 393 + 65", "output": "393 + 65 = 458"}
+{"instruction": "GPU khác CPU như thế nào?", "output": "CPU được tối ưu cho xử lý tuần tự với ít lõi mạnh, trong khi GPU có hàng nghìn lõi nhỏ, tối ưu cho xử lý song song, phù hợp với các phép tính ma trận trong deep learning."}
+{"instruction": "Nêu định nghĩa của Attention Mechanism trong lĩnh vực AI.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "10% của 548 là bao nhiêu?", "output": "10% của 548 là 54.8."}
+{"instruction": "Tính giá trị của biểu thức: 115 * 72", "output": "115 * 72 = 8280"}
+{"instruction": "Hãy trình bày ngắn gọn về LoRA.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính trung bình cộng của các số sau: 18, 60, 86, 68", "output": "Trung bình cộng của 18, 60, 86, 68 là 58.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 52, 93, 22, 60", "output": "Trung bình cộng của 87, 52, 93, 22, 60 là 62.8."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Tôi không đồng ý.\"", "output": "Tôi xin phép được đưa ra một góc nhìn khác về vấn đề này."}
+{"instruction": "Tính trung bình cộng của các số sau: 99, 36, 45", "output": "Trung bình cộng của 99, 36, 45 là 60.0."}
+{"instruction": "Tính giá trị của biểu thức: 306 - 33", "output": "306 - 33 = 273"}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 57, 71", "output": "Trung bình cộng của 95, 57, 71 là 74.33."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Đây là bữa ăn ngon nhất tôi từng ăn", "output": "This is the best meal I have ever had"}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 57, 71", "output": "Trung bình cộng của 95, 57, 71 là 74.33."}
+{"instruction": "Tính trung bình cộng của các số sau: 65, 55, 71, 58, 21", "output": "Trung bình cộng của 65, 55, 71, 58, 21 là 54.0."}
+{"instruction": "Tính giá trị của biểu thức: 494 * 109", "output": "494 * 109 = 53846"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hôm nay trời đẹp quá", "output": "The weather is so nice today"}
+{"instruction": "Tính giá trị của biểu thức: 51 * 26", "output": "51 * 26 = 1326"}
+{"instruction": "30% của 184 là bao nhiêu?", "output": "30% của 184 là 55.2."}
+{"instruction": "Tính giá trị của biểu thức: 103 - 366", "output": "103 - 366 = -263"}
+{"instruction": "Transformer là gì?", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 96, 23, 79", "output": "Trung bình cộng của 87, 96, 23, 79 là 71.25."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Cái này nó tốt hơn cái kia á.\"", "output": "Cái này tốt hơn cái kia."}
+{"instruction": "Hãy trình bày ngắn gọn về Batch Size.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Viết một email trang trọng để khiếu nại về sản phẩm bị lỗi.", "output": "Kính gửi Bộ phận Chăm sóc khách hàng,\n\nTôi viết email này để phản ánh về sản phẩm tôi vừa nhận được bị lỗi kỹ thuật. Tôi mong Quý công ty kiểm tra và hỗ trợ đổi trả hoặc sửa chữa trong thời gian sớm nhất.\n\nMong nhận được phản hồi sớm từ Quý công ty.\n\nTrân trọng."}
+{"instruction": "Translate the following sentence to Vietnamese: I like reading books in the evening", "output": "Tôi thích đọc sách vào buổi tối"}
+{"instruction": "Tính trung bình cộng của các số sau: 11, 18, 20, 30, 50", "output": "Trung bình cộng của 11, 18, 20, 30, 50 là 25.8."}
+{"instruction": "Tính giá trị của biểu thức: 449 - 369", "output": "449 - 369 = 80"}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Deadline gấp quá.\"", "output": "Thời hạn hoàn thành công việc khá eo hẹp, cần được ưu tiên xử lý sớm."}
+{"instruction": "Tính trung bình cộng của các số sau: 24, 7, 34, 49", "output": "Trung bình cộng của 24, 7, 34, 49 là 28.5."}
+{"instruction": "25% của 338 là bao nhiêu?", "output": "25% của 338 là 84.5."}
+{"instruction": "Nêu định nghĩa của RAG trong lĩnh vực AI.", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nfor i in range(10):\n    print(i)\n```", "output": "Đoạn code này dùng vòng lặp for để lặp qua các số từ 0 đến 9 và in từng số ra màn hình."}
+{"instruction": "Tính giá trị của biểu thức: 53 * 347", "output": "53 * 347 = 18391"}
+{"instruction": "Tính giá trị của biểu thức: 223 - 81", "output": "223 - 81 = 142"}
+{"instruction": "Tính trung bình cộng của các số sau: 29, 23, 90, 67", "output": "Trung bình cộng của 29, 23, 90, 67 là 52.25."}
+{"instruction": "Tính giá trị của biểu thức: 324 + 31", "output": "324 + 31 = 355"}
+{"instruction": "Translate the following sentence to Vietnamese: Thank you very much", "output": "Cảm ơn bạn rất nhiều"}
+{"instruction": "GPU khác CPU như thế nào?", "output": "CPU được tối ưu cho xử lý tuần tự với ít lõi mạnh, trong khi GPU có hàng nghìn lõi nhỏ, tối ưu cho xử lý song song, phù hợp với các phép tính ma trận trong deep learning."}
+{"instruction": "Tính giá trị của biểu thức: 338 * 244", "output": "338 * 244 = 82472"}
+{"instruction": "Hãy trình bày ngắn gọn về Overfitting.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Giải thích khái niệm Embedding trong Machine Learning.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Bạn có thể mô tả Tokenization một cách dễ hiểu không?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Attention Mechanism là gì?", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Bạn có thể mô tả Tokenization một cách dễ hiểu không?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính trung bình cộng của các số sau: 49, 5, 61", "output": "Trung bình cộng của 49, 5, 61 là 38.33."}
+{"instruction": "30% của 265 là bao nhiêu?", "output": "30% của 265 là 79.5."}
+{"instruction": "10% của 156 là bao nhiêu?", "output": "10% của 156 là 15.6."}
+{"instruction": "Giải thích đoạn code sau:\n```python\ndef add(a, b):\n    return a + b\n```", "output": "Đây là một hàm tên `add`, nhận vào hai tham số `a` và `b`, và trả về tổng của chúng."}
+{"instruction": "Tính giá trị của biểu thức: 494 * 109", "output": "494 * 109 = 53846"}
+{"instruction": "20% của 342 là bao nhiêu?", "output": "20% của 342 là 68.4."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 79, 99", "output": "Trung bình cộng của 61, 79, 99 là 79.67."}
+{"instruction": "10% của 950 là bao nhiêu?", "output": "10% của 950 là 95.0."}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 45, 69, 55", "output": "Trung bình cộng của 45, 69, 55 là 56.33."}
+{"instruction": "Tính giá trị của biểu thức: 353 + 286", "output": "353 + 286 = 639"}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Hãy trình bày ngắn gọn về LoRA.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Bạn có thể là giúp tôi được không?\"", "output": "Bạn có thể giúp tôi được không?"}
+{"instruction": "Tính trung bình cộng của các số sau: 32, 19, 84, 89", "output": "Trung bình cộng của 32, 19, 84, 89 là 56.0."}
+{"instruction": "25% của 647 là bao nhiêu?", "output": "25% của 647 là 161.75."}
+{"instruction": "5% của 152 là bao nhiêu?", "output": "5% của 152 là 7.6."}
+{"instruction": "Tính giá trị của biểu thức: 353 + 286", "output": "353 + 286 = 639"}
+{"instruction": "50% của 998 là bao nhiêu?", "output": "50% của 998 là 499.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 45, 29, 84, 9", "output": "Trung bình cộng của 7, 45, 29, 84, 9 là 34.8."}
+{"instruction": "Translate the following sentence to Vietnamese: Hello", "output": "Xin chào"}
+{"instruction": "Tính giá trị của biểu thức: 380 + 141", "output": "380 + 141 = 521"}
+{"instruction": "Tính giá trị của biểu thức: 338 - 221", "output": "338 - 221 = 117"}
+{"instruction": "Nêu định nghĩa của Attention Mechanism trong lĩnh vực AI.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "25% của 338 là bao nhiêu?", "output": "25% của 338 là 84.5."}
+{"instruction": "Batch Size là gì?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính giá trị của biểu thức: 175 - 58", "output": "175 - 58 = 117"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Anh ấy là 1 người tốt bụng lắm.\"", "output": "Anh ấy là một người rất tốt bụng."}
+{"instruction": "10% của 593 là bao nhiêu?", "output": "10% của 593 là 59.3."}
+{"instruction": "30% của 265 là bao nhiêu?", "output": "30% của 265 là 79.5."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Bạn khỏe không?", "output": "How are you?"}
+{"instruction": "30% của 753 là bao nhiêu?", "output": "30% của 753 là 225.9."}
+{"instruction": "30% của 58 là bao nhiêu?", "output": "30% của 58 là 17.4."}
+{"instruction": "Tokenization là gì?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "30% của 58 là bao nhiêu?", "output": "30% của 58 là 17.4."}
+{"instruction": "30% của 643 là bao nhiêu?", "output": "30% của 643 là 192.9."}
+{"instruction": "Tính trung bình cộng của các số sau: 66, 52, 87, 69, 43", "output": "Trung bình cộng của 66, 52, 87, 69, 43 là 63.4."}
+{"instruction": "15% của 923 là bao nhiêu?", "output": "15% của 923 là 138.45."}
+{"instruction": "Tính trung bình cộng của các số sau: 6, 97, 4, 32, 26", "output": "Trung bình cộng của 6, 97, 4, 32, 26 là 33.0."}
+{"instruction": "25% của 686 là bao nhiêu?", "output": "25% của 686 là 171.5."}
+{"instruction": "10% của 600 là bao nhiêu?", "output": "10% của 600 là 60.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 43, 53", "output": "Trung bình cộng của 95, 43, 53 là 63.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 99, 17, 82, 34", "output": "Trung bình cộng của 99, 17, 82, 34 là 58.0."}
+{"instruction": "30% của 735 là bao nhiêu?", "output": "30% của 735 là 220.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 72, 32, 16", "output": "Trung bình cộng của 7, 72, 32, 16 là 31.75."}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "Bạn có thể mô tả Tokenization một cách dễ hiểu không?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 383 - 300", "output": "383 - 300 = 83"}
+{"instruction": "Tính giá trị của biểu thức: 385 * 137", "output": "385 * 137 = 52745"}
+{"instruction": "20% của 211 là bao nhiêu?", "output": "20% của 211 là 42.2."}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "10% của 317 là bao nhiêu?", "output": "10% của 317 là 31.7."}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 72, 32, 16", "output": "Trung bình cộng của 7, 72, 32, 16 là 31.75."}
+{"instruction": "Tính giá trị của biểu thức: 50 - 184", "output": "50 - 184 = -134"}
+{"instruction": "Tính giá trị của biểu thức: 491 - 391", "output": "491 - 391 = 100"}
+{"instruction": "Tính trung bình cộng của các số sau: 20, 70, 5, 48, 75", "output": "Trung bình cộng của 20, 70, 5, 48, 75 là 43.6."}
+{"instruction": "50% của 603 là bao nhiêu?", "output": "50% của 603 là 301.5."}
+{"instruction": "Tính giá trị của biểu thức: 374 * 236", "output": "374 * 236 = 88264"}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 11, 37", "output": "Trung bình cộng của 85, 11, 37 là 44.33."}
+{"instruction": "Translate the following sentence to Vietnamese: I am learning programming", "output": "Tôi đang học lập trình"}
+{"instruction": "Hãy trình bày ngắn gọn về Quantization.", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "15% của 185 là bao nhiêu?", "output": "15% của 185 là 27.75."}
+{"instruction": "Tính giá trị của biểu thức: 128 + 99", "output": "128 + 99 = 227"}
+{"instruction": "Bạn có thể mô tả Tokenization một cách dễ hiểu không?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 385 * 137", "output": "385 * 137 = 52745"}
+{"instruction": "Tính trung bình cộng của các số sau: 4, 40, 74, 87, 49", "output": "Trung bình cộng của 4, 40, 74, 87, 49 là 50.8."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hôm nay trời đẹp quá", "output": "The weather is so nice today"}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "Tính giá trị của biểu thức: 415 + 446", "output": "415 + 446 = 861"}
+{"instruction": "Translate the following sentence to Vietnamese: We need to finish the project before Friday", "output": "Chúng ta cần hoàn thành dự án trước thứ Sáu"}
+{"instruction": "Bạn có thể mô tả Learning Rate một cách dễ hiểu không?", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Tính giá trị của biểu thức: 175 - 58", "output": "175 - 58 = 117"}
+{"instruction": "Tính trung bình cộng của các số sau: 91, 56, 1", "output": "Trung bình cộng của 91, 56, 1 là 49.33."}
+{"instruction": "Tính giá trị của biểu thức: 103 - 366", "output": "103 - 366 = -263"}
+{"instruction": "Tính giá trị của biểu thức: 235 - 74", "output": "235 - 74 = 161"}
+{"instruction": "Tính giá trị của biểu thức: 186 + 113", "output": "186 + 113 = 299"}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 41, 85, 16", "output": "Trung bình cộng của 80, 41, 85, 16 là 55.5."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hôm nay trời đẹp quá", "output": "The weather is so nice today"}
+{"instruction": "Tính giá trị của biểu thức: 498 + 257", "output": "498 + 257 = 755"}
+{"instruction": "Tính trung bình cộng của các số sau: 20, 70, 5, 48, 75", "output": "Trung bình cộng của 20, 70, 5, 48, 75 là 43.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "5% của 108 là bao nhiêu?", "output": "5% của 108 là 5.4."}
+{"instruction": "10% của 156 là bao nhiêu?", "output": "10% của 156 là 15.6."}
+{"instruction": "Tính giá trị của biểu thức: 441 + 483", "output": "441 + 483 = 924"}
+{"instruction": "Tính giá trị của biểu thức: 373 + 174", "output": "373 + 174 = 547"}
+{"instruction": "Tính trung bình cộng của các số sau: 28, 59, 42, 44", "output": "Trung bình cộng của 28, 59, 42, 44 là 43.25."}
+{"instruction": "Tính giá trị của biểu thức: 117 - 396", "output": "117 - 396 = -279"}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 50, 74, 25, 33", "output": "Trung bình cộng của 15, 50, 74, 25, 33 là 39.4."}
+{"instruction": "Tại sao cần chuẩn hóa dữ liệu trước khi huấn luyện mô hình?", "output": "Chuẩn hóa dữ liệu giúp các đặc trưng có cùng thang đo, tránh việc một số đặc trưng có giá trị lớn lấn át các đặc trưng khác, giúp mô hình hội tụ nhanh và ổn định hơn."}
+{"instruction": "15% của 244 là bao nhiêu?", "output": "15% của 244 là 36.6."}
+{"instruction": "Tại sao cần chuẩn hóa dữ liệu trước khi huấn luyện mô hình?", "output": "Chuẩn hóa dữ liệu giúp các đặc trưng có cùng thang đo, tránh việc một số đặc trưng có giá trị lớn lấn át các đặc trưng khác, giúp mô hình hội tụ nhanh và ổn định hơn."}
+{"instruction": "Tính giá trị của biểu thức: 190 + 182", "output": "190 + 182 = 372"}
+{"instruction": "Translate the following sentence to Vietnamese: He works hard every day", "output": "Anh ấy làm việc chăm chỉ mỗi ngày"}
+{"instruction": "GPU khác CPU như thế nào?", "output": "CPU được tối ưu cho xử lý tuần tự với ít lõi mạnh, trong khi GPU có hàng nghìn lõi nhỏ, tối ưu cho xử lý song song, phù hợp với các phép tính ma trận trong deep learning."}
+{"instruction": "Tính giá trị của biểu thức: 306 - 33", "output": "306 - 33 = 273"}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 99, 100, 67, 63", "output": "Trung bình cộng của 36, 99, 100, 67, 63 là 73.0."}
+{"instruction": "Tính giá trị của biểu thức: 41 + 438", "output": "41 + 438 = 479"}
+{"instruction": "Tính giá trị của biểu thức: 186 + 113", "output": "186 + 113 = 299"}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Cái app này lag.\"", "output": "Ứng dụng này đang gặp tình trạng phản hồi chậm, ảnh hưởng đến trải nghiệm người dùng."}
+{"instruction": "Tính giá trị của biểu thức: 389 + 413", "output": "389 + 413 = 802"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi đang học lập trình", "output": "I am learning programming"}
+{"instruction": "Nêu định nghĩa của Attention Mechanism trong lĩnh vực AI.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 54, 86", "output": "Trung bình cộng của 25, 54, 86 là 55.0."}
+{"instruction": "Tính giá trị của biểu thức: 383 - 300", "output": "383 - 300 = 83"}
+{"instruction": "Tính giá trị của biểu thức: 393 + 65", "output": "393 + 65 = 458"}
+{"instruction": "Tính giá trị của biểu thức: 280 + 215", "output": "280 + 215 = 495"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Tôi đi học vào hôm qua rồi.\"", "output": "Hôm qua tôi đã đi học."}
+{"instruction": "Một năm có bao nhiêu ngày?", "output": "Một năm thường có 365 ngày, năm nhuận có 366 ngày."}
+{"instruction": "Tính giá trị của biểu thức: 380 + 141", "output": "380 + 141 = 521"}
+{"instruction": "5% của 460 là bao nhiêu?", "output": "5% của 460 là 23.0."}
+{"instruction": "Attention Mechanism là gì?", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nfor i in range(10):\n    print(i)\n```", "output": "Đoạn code này dùng vòng lặp for để lặp qua các số từ 0 đến 9 và in từng số ra màn hình."}
+{"instruction": "Tính giá trị của biểu thức: 217 - 211", "output": "217 - 211 = 6"}
+{"instruction": "Viết một email trang trọng để thông báo lịch nghỉ lễ cho nhân viên.", "output": "Kính gửi toàn thể nhân viên,\n\nCông ty xin thông báo lịch nghỉ lễ sắp tới để mọi người chủ động sắp xếp công việc cá nhân. Chi tiết lịch nghỉ sẽ được cập nhật trên hệ thống nội bộ.\n\nChúc mọi người có kỳ nghỉ vui vẻ và an toàn.\n\nTrân trọng."}
+{"instruction": "Tính giá trị của biểu thức: 36 * 24", "output": "36 * 24 = 864"}
+{"instruction": "Bạn có thể mô tả Embedding một cách dễ hiểu không?", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Nước nào có diện tích lớn nhất thế giới?", "output": "Nga là quốc gia có diện tích lớn nhất thế giới."}
+{"instruction": "Viết một email trang trọng để mời đối tác tham dự buổi họp vào tuần sau.", "output": "Kính gửi Quý đối tác,\n\nChúng tôi trân trọng kính mời Quý đối tác tham dự buổi họp trao đổi hợp tác vào tuần sau. Buổi họp sẽ tập trung thảo luận về kế hoạch triển khai và các bước tiếp theo.\n\nRất mong nhận được sự xác nhận tham dự từ Quý đối tác.\n\nTrân trọng cảm ơn."}
+{"instruction": "Tính giá trị của biểu thức: 449 - 368", "output": "449 - 368 = 81"}
+{"instruction": "Translate the following sentence to Vietnamese: This is the best meal I have ever had", "output": "Đây là bữa ăn ngon nhất tôi từng ăn"}
+{"instruction": "Tính giá trị của biểu thức: 36 * 24", "output": "36 * 24 = 864"}
+{"instruction": "Tokenization là gì?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 237 + 128", "output": "237 + 128 = 365"}
+{"instruction": "Tính giá trị của biểu thức: 11 * 302", "output": "11 * 302 = 3322"}
+{"instruction": "20% của 567 là bao nhiêu?", "output": "20% của 567 là 113.4."}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 82, 80, 43, 12", "output": "Trung bình cộng của 85, 82, 80, 43, 12 là 60.4."}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Tính giá trị của biểu thức: 41 - 283", "output": "41 - 283 = -242"}
+{"instruction": "Hãy trình bày ngắn gọn về Transformer.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "15% của 899 là bao nhiêu?", "output": "15% của 899 là 134.85."}
+{"instruction": "VRAM là gì và tại sao nó quan trọng khi train mô hình AI?", "output": "VRAM (Video RAM) là bộ nhớ trên card đồ họa (GPU), dùng để lưu trữ trọng số mô hình, dữ liệu batch và gradient trong quá trình huấn luyện. VRAM càng lớn thì có thể train mô hình lớn hơn hoặc với batch size lớn hơn."}
+{"instruction": "Tính giá trị của biểu thức: 491 - 391", "output": "491 - 391 = 100"}
+{"instruction": "Translate the following sentence to Vietnamese: See you later", "output": "Hẹn gặp lại bạn sau"}
+{"instruction": "Translate the following sentence to Vietnamese: I like reading books in the evening", "output": "Tôi thích đọc sách vào buổi tối"}
+{"instruction": "15% của 899 là bao nhiêu?", "output": "15% của 899 là 134.85."}
+{"instruction": "Tính giá trị của biểu thức: 344 * 137", "output": "344 * 137 = 47128"}
+{"instruction": "Tính giá trị của biểu thức: 85 * 136", "output": "85 * 136 = 11560"}
+{"instruction": "20% của 211 là bao nhiêu?", "output": "20% của 211 là 42.2."}
+{"instruction": "Tính giá trị của biểu thức: 217 - 94", "output": "217 - 94 = 123"}
+{"instruction": "Tính giá trị của biểu thức: 406 - 349", "output": "406 - 349 = 57"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Xin chào", "output": "Hello"}
+{"instruction": "Tính trung bình cộng của các số sau: 23, 53, 4", "output": "Trung bình cộng của 23, 53, 4 là 26.67."}
+{"instruction": "5% của 95 là bao nhiêu?", "output": "5% của 95 là 4.75."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nclass Animal:\n    def __init__(self, name):\n        self.name = name\n```", "output": "Đây là định nghĩa một class tên `Animal` trong Python, có phương thức khởi tạo `__init__` nhận tham số `name` và lưu vào thuộc tính `self.name` của đối tượng."}
+{"instruction": "Tính giá trị của biểu thức: 143 + 80", "output": "143 + 80 = 223"}
+{"instruction": "Tính trung bình cộng của các số sau: 24, 7, 34, 49", "output": "Trung bình cộng của 24, 7, 34, 49 là 28.5."}
+{"instruction": "Tính giá trị của biểu thức: 41 - 283", "output": "41 - 283 = -242"}
+{"instruction": "15% của 518 là bao nhiêu?", "output": "15% của 518 là 77.7."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 92, 90, 50, 64", "output": "Trung bình cộng của 25, 92, 90, 50, 64 là 64.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 92, 90, 50, 64", "output": "Trung bình cộng của 25, 92, 90, 50, 64 là 64.2."}
+{"instruction": "Tính giá trị của biểu thức: 237 + 128", "output": "237 + 128 = 365"}
+{"instruction": "Tính trung bình cộng của các số sau: 53, 80, 96, 20, 31", "output": "Trung bình cộng của 53, 80, 96, 20, 31 là 56.0."}
+{"instruction": "Tính giá trị của biểu thức: 406 - 349", "output": "406 - 349 = 57"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 79, 99", "output": "Trung bình cộng của 61, 79, 99 là 79.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 50, 74, 25, 33", "output": "Trung bình cộng của 15, 50, 74, 25, 33 là 39.4."}
+{"instruction": "Tính trung bình cộng của các số sau: 86, 14, 46", "output": "Trung bình cộng của 86, 14, 46 là 48.67."}
+{"instruction": "30% của 643 là bao nhiêu?", "output": "30% của 643 là 192.9."}
+{"instruction": "Hãy trình bày ngắn gọn về Overfitting.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nmodel = AutoModelForCausalLM.from_pretrained(MODEL)\n```", "output": "Dòng code này tải một mô hình ngôn ngữ đã được huấn luyện sẵn (pretrained) từ HuggingFace Hub hoặc thư mục cục bộ, dựa trên tên/đường dẫn được chỉ định trong biến MODEL."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 41, 85, 16", "output": "Trung bình cộng của 80, 41, 85, 16 là 55.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 76, 73, 85, 4", "output": "Trung bình cộng của 76, 73, 85, 4 là 59.5."}
+{"instruction": "Tính giá trị của biểu thức: 338 - 221", "output": "338 - 221 = 117"}
+{"instruction": "Tính giá trị của biểu thức: 312 + 102", "output": "312 + 102 = 414"}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "Viết một email trang trọng để xin nghỉ phép 2 ngày vì lý do gia đình.", "output": "Kính gửi Anh/Chị,\n\nEm viết email này để xin phép nghỉ 2 ngày làm việc do có việc gia đình đột xuất. Em sẽ bàn giao công việc đầy đủ trước khi nghỉ và sẵn sàng hỗ trợ từ xa nếu cần thiết.\n\nMong Anh/Chị xem xét và chấp thuận.\n\nEm cảm ơn Anh/Chị.\nTrân trọng."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng tôi sẽ đi du lịch vào tháng tới", "output": "We will travel next month"}
+{"instruction": "Nêu định nghĩa của Overfitting trong lĩnh vực AI.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Tính giá trị của biểu thức: 449 - 369", "output": "449 - 369 = 80"}
+{"instruction": "Tính giá trị của biểu thức: 116 - 33", "output": "116 - 33 = 83"}
+{"instruction": "Tính trung bình cộng của các số sau: 34, 5, 14, 77, 56", "output": "Trung bình cộng của 34, 5, 14, 77, 56 là 37.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 45, 69, 55", "output": "Trung bình cộng của 45, 69, 55 là 56.33."}
+{"instruction": "Tính giá trị của biểu thức: 50 - 184", "output": "50 - 184 = -134"}
+{"instruction": "Tính giá trị của biểu thức: 230 - 302", "output": "230 - 302 = -72"}
+{"instruction": "5% của 272 là bao nhiêu?", "output": "5% của 272 là 13.6."}
+{"instruction": "Tính giá trị của biểu thức: 4 * 37", "output": "4 * 37 = 148"}
+{"instruction": "Tính giá trị của biểu thức: 50 - 184", "output": "50 - 184 = -134"}
+{"instruction": "20% của 342 là bao nhiêu?", "output": "20% của 342 là 68.4."}
+{"instruction": "5% của 605 là bao nhiêu?", "output": "5% của 605 là 30.25."}
+{"instruction": "Tính giá trị của biểu thức: 261 + 253", "output": "261 + 253 = 514"}
+{"instruction": "50% của 321 là bao nhiêu?", "output": "50% của 321 là 160.5."}
+{"instruction": "Giải thích khái niệm RAG trong Machine Learning.", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Nêu định nghĩa của Batch Size trong lĩnh vực AI.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Translate the following sentence to Vietnamese: I like reading books in the evening", "output": "Tôi thích đọc sách vào buổi tối"}
+{"instruction": "Tính giá trị của biểu thức: 260 + 468", "output": "260 + 468 = 728"}
+{"instruction": "Viết một email trang trọng để cảm ơn khách hàng đã sử dụng dịch vụ.", "output": "Kính gửi Quý khách hàng,\n\nChúng tôi xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ của chúng tôi trong thời gian qua. Sự hài lòng của Quý khách là động lực để chúng tôi không ngừng cải thiện chất lượng.\n\nRất mong tiếp tục được đồng hành cùng Quý khách trong thời gian tới.\n\nTrân trọng."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Cái app này lag.\"", "output": "Ứng dụng này đang gặp tình trạng phản hồi chậm, ảnh hưởng đến trải nghiệm người dùng."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 58, 34, 97, 32", "output": "Trung bình cộng của 61, 58, 34, 97, 32 là 56.4."}
+{"instruction": "Tính giá trị của biểu thức: 58 - 476", "output": "58 - 476 = -418"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 3, 96", "output": "Trung bình cộng của 61, 3, 96 là 53.33."}
+{"instruction": "Tính trung bình cộng của các số sau: 6, 97, 4, 32, 26", "output": "Trung bình cộng của 6, 97, 4, 32, 26 là 33.0."}
+{"instruction": "Tính giá trị của biểu thức: 116 - 33", "output": "116 - 33 = 83"}
+{"instruction": "Tính giá trị của biểu thức: 277 * 68", "output": "277 * 68 = 18836"}
+{"instruction": "Tính trung bình cộng của các số sau: 76, 73, 85, 4", "output": "Trung bình cộng của 76, 73, 85, 4 là 59.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 69, 4", "output": "Trung bình cộng của 80, 69, 4 là 51.0."}
+{"instruction": "Tính giá trị của biểu thức: 471 * 1", "output": "471 * 1 = 471"}
+{"instruction": "Tính giá trị của biểu thức: 491 - 391", "output": "491 - 391 = 100"}
+{"instruction": "25% của 338 là bao nhiêu?", "output": "25% của 338 là 84.5."}
+{"instruction": "Giải thích khái niệm Epoch trong Machine Learning.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Nêu định nghĩa của Embedding trong lĩnh vực AI.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "5% của 659 là bao nhiêu?", "output": "5% của 659 là 32.95."}
+{"instruction": "Tính giá trị của biểu thức: 72 * 127", "output": "72 * 127 = 9144"}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 72, 32, 16", "output": "Trung bình cộng của 7, 72, 32, 16 là 31.75."}
+{"instruction": "Tính giá trị của biểu thức: 441 + 483", "output": "441 + 483 = 924"}
+{"instruction": "Hãy trình bày ngắn gọn về Overfitting.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "5% của 108 là bao nhiêu?", "output": "5% của 108 là 5.4."}
+{"instruction": "Tính trung bình cộng của các số sau: 6, 97, 4, 32, 26", "output": "Trung bình cộng của 6, 97, 4, 32, 26 là 33.0."}
+{"instruction": "Translate the following sentence to Vietnamese: Thank you very much", "output": "Cảm ơn bạn rất nhiều"}
+{"instruction": "Tính giá trị của biểu thức: 123 + 30", "output": "123 + 30 = 153"}
+{"instruction": "Bạn có thể mô tả LoRA một cách dễ hiểu không?", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Nêu định nghĩa của Gradient Descent trong lĩnh vực AI.", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính giá trị của biểu thức: 373 + 174", "output": "373 + 174 = 547"}
+{"instruction": "25% của 852 là bao nhiêu?", "output": "25% của 852 là 213.0."}
+{"instruction": "Tính giá trị của biểu thức: 4 * 37", "output": "4 * 37 = 148"}
+{"instruction": "Tính trung bình cộng của các số sau: 94, 41, 56, 78", "output": "Trung bình cộng của 94, 41, 56, 78 là 67.25."}
+{"instruction": "Bạn có thể mô tả Fine-tuning một cách dễ hiểu không?", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Bạn có thể mô tả Batch Size một cách dễ hiểu không?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Một năm có bao nhiêu ngày?", "output": "Một năm thường có 365 ngày, năm nhuận có 366 ngày."}
+{"instruction": "Tính trung bình cộng của các số sau: 90, 3, 98, 74, 49", "output": "Trung bình cộng của 90, 3, 98, 74, 49 là 62.8."}
+{"instruction": "Tính giá trị của biểu thức: 441 + 170", "output": "441 + 170 = 611"}
+{"instruction": "10% của 950 là bao nhiêu?", "output": "10% của 950 là 95.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 53, 80, 96, 20, 31", "output": "Trung bình cộng của 53, 80, 96, 20, 31 là 56.0."}
+{"instruction": "Giải thích khái niệm Machine Learning trong Machine Learning.", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "25% của 719 là bao nhiêu?", "output": "25% của 719 là 179.75."}
+{"instruction": "Tính giá trị của biểu thức: 41 + 438", "output": "41 + 438 = 479"}
+{"instruction": "Thủ đô của Nhật Bản là gì?", "output": "Thủ đô của Nhật Bản là Tokyo."}
+{"instruction": "Quantization là gì?", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính giá trị của biểu thức: 280 + 215", "output": "280 + 215 = 495"}
+{"instruction": "15% của 428 là bao nhiêu?", "output": "15% của 428 là 64.2."}
+{"instruction": "25% của 108 là bao nhiêu?", "output": "25% của 108 là 27.0."}
+{"instruction": "Tính giá trị của biểu thức: 344 * 137", "output": "344 * 137 = 47128"}
+{"instruction": "20% của 52 là bao nhiêu?", "output": "20% của 52 là 10.4."}
+{"instruction": "30% của 265 là bao nhiêu?", "output": "30% của 265 là 79.5."}
+{"instruction": "30% của 763 là bao nhiêu?", "output": "30% của 763 là 228.9."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nfor i in range(10):\n    print(i)\n```", "output": "Đoạn code này dùng vòng lặp for để lặp qua các số từ 0 đến 9 và in từng số ra màn hình."}
+{"instruction": "Tính giá trị của biểu thức: 275 + 230", "output": "275 + 230 = 505"}
+{"instruction": "Nêu định nghĩa của Tokenization trong lĩnh vực AI.", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính trung bình cộng của các số sau: 31, 35, 43, 41", "output": "Trung bình cộng của 31, 35, 43, 41 là 37.5."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nmodel = AutoModelForCausalLM.from_pretrained(MODEL)\n```", "output": "Dòng code này tải một mô hình ngôn ngữ đã được huấn luyện sẵn (pretrained) từ HuggingFace Hub hoặc thư mục cục bộ, dựa trên tên/đường dẫn được chỉ định trong biến MODEL."}
+{"instruction": "Tính giá trị của biểu thức: 271 * 129", "output": "271 * 129 = 34959"}
+{"instruction": "Machine Learning là gì?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 14 + 288", "output": "14 + 288 = 302"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 79, 99", "output": "Trung bình cộng của 61, 79, 99 là 79.67."}
+{"instruction": "Tính giá trị của biểu thức: 41 + 438", "output": "41 + 438 = 479"}
+{"instruction": "Giải thích khái niệm Quantization trong Machine Learning.", "output": "Quantization (lượng tử hóa) là kỹ thuật giảm độ chính xác số học của trọng số mô hình (ví dụ từ 32-bit xuống 4-bit) để tiết kiệm bộ nhớ và tăng tốc suy luận."}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 97, 54, 33", "output": "Trung bình cộng của 36, 97, 54, 33 là 55.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 92, 90, 50, 64", "output": "Trung bình cộng của 25, 92, 90, 50, 64 là 64.2."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Cái này nó tốt hơn cái kia á.\"", "output": "Cái này tốt hơn cái kia."}
+{"instruction": "Tính giá trị của biểu thức: 425 * 322", "output": "425 * 322 = 136850"}
+{"instruction": "Hãy trình bày ngắn gọn về Embedding.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Fine-tuning là gì?", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 3, 96", "output": "Trung bình cộng của 61, 3, 96 là 53.33."}
+{"instruction": "Hãy trình bày ngắn gọn về Gradient Descent.", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Tính giá trị của biểu thức: 4 * 37", "output": "4 * 37 = 148"}
+{"instruction": "Giải thích đoạn code sau:\n```python\ndef add(a, b):\n    return a + b\n```", "output": "Đây là một hàm tên `add`, nhận vào hai tham số `a` và `b`, và trả về tổng của chúng."}
+{"instruction": "Tính trung bình cộng của các số sau: 42, 60, 57, 57, 87", "output": "Trung bình cộng của 42, 60, 57, 57, 87 là 60.6."}
+{"instruction": "Tính giá trị của biểu thức: 195 * 139", "output": "195 * 139 = 27105"}
+{"instruction": "Translate the following sentence to Vietnamese: He works hard every day", "output": "Anh ấy làm việc chăm chỉ mỗi ngày"}
+{"instruction": "Tính trung bình cộng của các số sau: 55, 72, 2, 15, 10", "output": "Trung bình cộng của 55, 72, 2, 15, 10 là 30.8."}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 97, 54, 33", "output": "Trung bình cộng của 36, 97, 54, 33 là 55.0."}
+{"instruction": "Tính giá trị của biểu thức: 343 + 249", "output": "343 + 249 = 592"}
+{"instruction": "GPU khác CPU như thế nào?", "output": "CPU được tối ưu cho xử lý tuần tự với ít lõi mạnh, trong khi GPU có hàng nghìn lõi nhỏ, tối ưu cho xử lý song song, phù hợp với các phép tính ma trận trong deep learning."}
+{"instruction": "Tính giá trị của biểu thức: 116 - 33", "output": "116 - 33 = 83"}
+{"instruction": "50% của 603 là bao nhiêu?", "output": "50% của 603 là 301.5."}
+{"instruction": "Translate the following sentence to Vietnamese: How are you?", "output": "Bạn khỏe không?"}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Tính giá trị của biểu thức: 277 * 489", "output": "277 * 489 = 135453"}
+{"instruction": "Tính giá trị của biểu thức: 205 * 344", "output": "205 * 344 = 70520"}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính giá trị của biểu thức: 406 - 349", "output": "406 - 349 = 57"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Ngày mai tôi sẽ đi làm sớm hơn mọi khi.\"", "output": "Ngày mai tôi sẽ đi làm sớm hơn thường lệ."}
+{"instruction": "Tính giá trị của biểu thức: 126 - 84", "output": "126 - 84 = 42"}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "Tính giá trị của biểu thức: 217 - 94", "output": "217 - 94 = 123"}
+{"instruction": "15% của 209 là bao nhiêu?", "output": "15% của 209 là 31.35."}
+{"instruction": "5% của 658 là bao nhiêu?", "output": "5% của 658 là 32.9."}
+{"instruction": "Overfitting là gì?", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Anh ấy là 1 người tốt bụng lắm.\"", "output": "Anh ấy là một người rất tốt bụng."}
+{"instruction": "Tính giá trị của biểu thức: 260 + 468", "output": "260 + 468 = 728"}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Thủ đô của Nhật Bản là gì?", "output": "Thủ đô của Nhật Bản là Tokyo."}
+{"instruction": "Hãy trình bày ngắn gọn về Learning Rate.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Nêu định nghĩa của Learning Rate trong lĩnh vực AI.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Tính trung bình cộng của các số sau: 4, 40, 74, 87, 49", "output": "Trung bình cộng của 4, 40, 74, 87, 49 là 50.8."}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "Tính giá trị của biểu thức: 196 - 306", "output": "196 - 306 = -110"}
+{"instruction": "20% của 211 là bao nhiêu?", "output": "20% của 211 là 42.2."}
+{"instruction": "Tính giá trị của biểu thức: 402 - 243", "output": "402 - 243 = 159"}
+{"instruction": "Tính trung bình cộng của các số sau: 1, 46, 39, 97", "output": "Trung bình cộng của 1, 46, 39, 97 là 45.75."}
+{"instruction": "Tính giá trị của biểu thức: 296 * 99", "output": "296 * 99 = 29304"}
+{"instruction": "Tính giá trị của biểu thức: 14 + 288", "output": "14 + 288 = 302"}
+{"instruction": "Tính giá trị của biểu thức: 296 * 99", "output": "296 * 99 = 29304"}
+{"instruction": "Tính trung bình cộng của các số sau: 19, 56, 17, 6, 40", "output": "Trung bình cộng của 19, 56, 17, 6, 40 là 27.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 57, 71", "output": "Trung bình cộng của 95, 57, 71 là 74.33."}
+{"instruction": "Tính trung bình cộng của các số sau: 39, 65, 40, 86, 53", "output": "Trung bình cộng của 39, 65, 40, 86, 53 là 56.6."}
+{"instruction": "Tính giá trị của biểu thức: 88 * 274", "output": "88 * 274 = 24112"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 79, 99", "output": "Trung bình cộng của 61, 79, 99 là 79.67."}
+{"instruction": "RAG là gì?", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Giải thích đoạn code sau:\n```python\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Lỗi chia cho 0')\n```", "output": "Đoạn code này thử thực hiện phép chia cho 0, gây ra lỗi `ZeroDivisionError`, và khối `except` sẽ bắt lỗi đó để in ra thông báo thay vì làm chương trình bị crash."}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "Tính giá trị của biểu thức: 192 + 391", "output": "192 + 391 = 583"}
+{"instruction": "Tính giá trị của biểu thức: 16 + 48", "output": "16 + 48 = 64"}
+{"instruction": "Dropout là gì?", "output": "Dropout là kỹ thuật regularization, ngẫu nhiên tắt một số neuron trong quá trình huấn luyện để giảm overfitting."}
+{"instruction": "Tokenization là gì?", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 31, 36, 57, 10, 92", "output": "Trung bình cộng của 31, 36, 57, 10, 92 là 45.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 36, 99, 100, 67, 63", "output": "Trung bình cộng của 36, 99, 100, 67, 63 là 73.0."}
+{"instruction": "Gradient Descent là gì?", "output": "Gradient Descent là thuật toán tối ưu hóa lặp, cập nhật tham số mô hình theo hướng ngược với gradient của hàm mất mát để giảm dần giá trị loss."}
+{"instruction": "Tính giá trị của biểu thức: 471 * 1", "output": "471 * 1 = 471"}
+{"instruction": "20% của 290 là bao nhiêu?", "output": "20% của 290 là 58.0."}
+{"instruction": "Nêu định nghĩa của Transformer trong lĩnh vực AI.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Translate the following sentence to Vietnamese: I like reading books in the evening", "output": "Tôi thích đọc sách vào buổi tối"}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 54, 86", "output": "Trung bình cộng của 25, 54, 86 là 55.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 54, 86", "output": "Trung bình cộng của 25, 54, 86 là 55.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 58, 34, 97, 32", "output": "Trung bình cộng của 61, 58, 34, 97, 32 là 56.4."}
+{"instruction": "Hãy trình bày ngắn gọn về Transformer.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Tính giá trị của biểu thức: 312 + 102", "output": "312 + 102 = 414"}
+{"instruction": "25% của 302 là bao nhiêu?", "output": "25% của 302 là 75.5."}
+{"instruction": "30% của 727 là bao nhiêu?", "output": "30% của 727 là 218.1."}
+{"instruction": "Tính trung bình cộng của các số sau: 19, 56, 17, 6, 40", "output": "Trung bình cộng của 19, 56, 17, 6, 40 là 27.6."}
+{"instruction": "Tính giá trị của biểu thức: 44 - 375", "output": "44 - 375 = -331"}
+{"instruction": "Giải thích khái niệm Transformer trong Machine Learning.", "output": "Transformer là kiến trúc mạng nơ-ron dựa trên cơ chế self-attention, cho phép xử lý song song toàn bộ chuỗi đầu vào và nắm bắt quan hệ xa giữa các token."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Anh ấy là 1 người tốt bụng lắm.\"", "output": "Anh ấy là một người rất tốt bụng."}
+{"instruction": "25% của 852 là bao nhiêu?", "output": "25% của 852 là 213.0."}
+{"instruction": "30% của 184 là bao nhiêu?", "output": "30% của 184 là 55.2."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Tôi rất là thích món ăn này lắm luôn.\"", "output": "Tôi rất thích món ăn này."}
+{"instruction": "Bạn có thể mô tả RAG một cách dễ hiểu không?", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Tính trung bình cộng của các số sau: 7, 45, 29, 84, 9", "output": "Trung bình cộng của 7, 45, 29, 84, 9 là 34.8."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Cảm ơn bạn rất nhiều", "output": "Thank you very much"}
+{"instruction": "Tính trung bình cộng của các số sau: 54, 69, 96, 95", "output": "Trung bình cộng của 54, 69, 96, 95 là 78.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 81, 32, 14, 90, 99", "output": "Trung bình cộng của 81, 32, 14, 90, 99 là 63.2."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng tôi sẽ đi du lịch vào tháng tới", "output": "We will travel next month"}
+{"instruction": "Tính giá trị của biểu thức: 85 * 136", "output": "85 * 136 = 11560"}
+{"instruction": "15% của 770 là bao nhiêu?", "output": "15% của 770 là 115.5."}
+{"instruction": "15% của 185 là bao nhiêu?", "output": "15% của 185 là 27.75."}
+{"instruction": "LoRA là gì?", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính giá trị của biểu thức: 41 + 438", "output": "41 + 438 = 479"}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Con mèo nó đang ngủ trên ghế.\"", "output": "Con mèo đang ngủ trên ghế."}
+{"instruction": "20% của 290 là bao nhiêu?", "output": "20% của 290 là 58.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 50, 74, 25, 33", "output": "Trung bình cộng của 15, 50, 74, 25, 33 là 39.4."}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "Bạn có thể mô tả Machine Learning một cách dễ hiểu không?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 446 - 321", "output": "446 - 321 = 125"}
+{"instruction": "Nêu định nghĩa của Epoch trong lĩnh vực AI.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính trung bình cộng của các số sau: 91, 56, 1", "output": "Trung bình cộng của 91, 56, 1 là 49.33."}
+{"instruction": "Tính trung bình cộng của các số sau: 59, 54, 81", "output": "Trung bình cộng của 59, 54, 81 là 64.67."}
+{"instruction": "Giải thích khái niệm LoRA trong Machine Learning.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính trung bình cộng của các số sau: 25, 54, 86", "output": "Trung bình cộng của 25, 54, 86 là 55.0."}
+{"instruction": "10% của 593 là bao nhiêu?", "output": "10% của 593 là 59.3."}
+{"instruction": "Tính giá trị của biểu thức: 288 - 276", "output": "288 - 276 = 12"}
+{"instruction": "15% của 428 là bao nhiêu?", "output": "15% của 428 là 64.2."}
+{"instruction": "Tính giá trị của biểu thức: 186 + 113", "output": "186 + 113 = 299"}
+{"instruction": "Nêu định nghĩa của Tokenization trong lĩnh vực AI.", "output": "Tokenization là quá trình chia văn bản thành các đơn vị nhỏ hơn (token) như từ, cụm từ con, hoặc ký tự, để mô hình ngôn ngữ có thể xử lý."}
+{"instruction": "Tính giá trị của biểu thức: 498 + 257", "output": "498 + 257 = 755"}
+{"instruction": "Tính giá trị của biểu thức: 72 * 127", "output": "72 * 127 = 9144"}
+{"instruction": "Fine-tuning là gì?", "output": "Fine-tuning là quá trình tiếp tục huấn luyện một mô hình đã được pretrain trên tập dữ liệu mới, nhỏ hơn và chuyên biệt hơn, để thích nghi với tác vụ cụ thể."}
+{"instruction": "15% của 770 là bao nhiêu?", "output": "15% của 770 là 115.5."}
+{"instruction": "Hãy trình bày ngắn gọn về Epoch.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Giải thích khái niệm Learning Rate trong Machine Learning.", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Translate the following sentence to Vietnamese: Hanoi is the capital of Vietnam", "output": "Hà Nội là thủ đô của Việt Nam"}
+{"instruction": "5% của 952 là bao nhiêu?", "output": "5% của 952 là 47.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 11, 37", "output": "Trung bình cộng của 85, 11, 37 là 44.33."}
+{"instruction": "Tính giá trị của biểu thức: 126 - 84", "output": "126 - 84 = 42"}
+{"instruction": "Bạn có thể mô tả Machine Learning một cách dễ hiểu không?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "15% của 923 là bao nhiêu?", "output": "15% của 923 là 138.45."}
+{"instruction": "Tính trung bình cộng của các số sau: 4, 40, 74, 87, 49", "output": "Trung bình cộng của 4, 40, 74, 87, 49 là 50.8."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Con mèo nó đang ngủ trên ghế.\"", "output": "Con mèo đang ngủ trên ghế."}
+{"instruction": "Tính giá trị của biểu thức: 443 + 374", "output": "443 + 374 = 817"}
+{"instruction": "5% của 952 là bao nhiêu?", "output": "5% của 952 là 47.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 52, 93, 22, 60", "output": "Trung bình cộng của 87, 52, 93, 22, 60 là 62.8."}
+{"instruction": "20% của 342 là bao nhiêu?", "output": "20% của 342 là 68.4."}
+{"instruction": "15% của 770 là bao nhiêu?", "output": "15% của 770 là 115.5."}
+{"instruction": "Machine Learning là gì?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 261 + 253", "output": "261 + 253 = 514"}
+{"instruction": "Bạn có thể mô tả Learning Rate một cách dễ hiểu không?", "output": "Learning Rate (tốc độ học) là siêu tham số quyết định mức độ điều chỉnh trọng số mô hình sau mỗi bước cập nhật gradient."}
+{"instruction": "Tính trung bình cộng của các số sau: 94, 41, 56, 78", "output": "Trung bình cộng của 94, 41, 56, 78 là 67.25."}
+{"instruction": "Tính giá trị của biểu thức: 195 * 139", "output": "195 * 139 = 27105"}
+{"instruction": "Tính trung bình cộng của các số sau: 31, 35, 43, 41", "output": "Trung bình cộng của 31, 35, 43, 41 là 37.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 78, 29, 63, 29, 35", "output": "Trung bình cộng của 78, 29, 63, 29, 35 là 46.8."}
+{"instruction": "Tính giá trị của biểu thức: 385 * 137", "output": "385 * 137 = 52745"}
+{"instruction": "50% của 603 là bao nhiêu?", "output": "50% của 603 là 301.5."}
+{"instruction": "Tính giá trị của biểu thức: 260 + 468", "output": "260 + 468 = 728"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi rất vui được gặp bạn", "output": "I am very happy to meet you"}
+{"instruction": "Translate the following sentence to Vietnamese: See you later", "output": "Hẹn gặp lại bạn sau"}
+{"instruction": "Tính giá trị của biểu thức: 120 * 259", "output": "120 * 259 = 31080"}
+{"instruction": "20% của 699 là bao nhiêu?", "output": "20% của 699 là 139.8."}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 96, 23, 79", "output": "Trung bình cộng của 87, 96, 23, 79 là 71.25."}
+{"instruction": "Tính giá trị của biểu thức: 41 - 283", "output": "41 - 283 = -242"}
+{"instruction": "Bạn có thể mô tả RAG một cách dễ hiểu không?", "output": "RAG (Retrieval-Augmented Generation) là kỹ thuật kết hợp truy xuất thông tin từ nguồn dữ liệu bên ngoài với mô hình sinh văn bản, giúp câu trả lời chính xác và cập nhật hơn."}
+{"instruction": "Sửa lỗi ngữ pháp trong câu sau: \"Anh ấy là 1 người tốt bụng lắm.\"", "output": "Anh ấy là một người rất tốt bụng."}
+{"instruction": "Tính giá trị của biểu thức: 343 + 249", "output": "343 + 249 = 592"}
+{"instruction": "Tính trung bình cộng của các số sau: 32, 19, 84, 89", "output": "Trung bình cộng của 32, 19, 84, 89 là 56.0."}
+{"instruction": "25% của 172 là bao nhiêu?", "output": "25% của 172 là 43.0."}
+{"instruction": "Tính giá trị của biểu thức: 116 - 33", "output": "116 - 33 = 83"}
+{"instruction": "Tính giá trị của biểu thức: 192 + 391", "output": "192 + 391 = 583"}
+{"instruction": "25% của 852 là bao nhiêu?", "output": "25% của 852 là 213.0."}
+{"instruction": "Tính giá trị của biểu thức: 85 * 136", "output": "85 * 136 = 11560"}
+{"instruction": "Tính trung bình cộng của các số sau: 87, 96, 23, 79", "output": "Trung bình cộng của 87, 96, 23, 79 là 71.25."}
+{"instruction": "Tính giá trị của biểu thức: 175 - 58", "output": "175 - 58 = 117"}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 20, 31", "output": "Trung bình cộng của 80, 20, 31 là 43.67."}
+{"instruction": "Tính trung bình cộng của các số sau: 45, 69, 55", "output": "Trung bình cộng của 45, 69, 55 là 56.33."}
+{"instruction": "Tính giá trị của biểu thức: 186 + 113", "output": "186 + 113 = 299"}
+{"instruction": "Tính giá trị của biểu thức: 425 * 322", "output": "425 * 322 = 136850"}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 11, 37", "output": "Trung bình cộng của 85, 11, 37 là 44.33."}
+{"instruction": "Hãy trình bày ngắn gọn về Batch Size.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "5% của 659 là bao nhiêu?", "output": "5% của 659 là 32.95."}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Deadline gấp quá.\"", "output": "Thời hạn hoàn thành công việc khá eo hẹp, cần được ưu tiên xử lý sớm."}
+{"instruction": "25% của 903 là bao nhiêu?", "output": "25% của 903 là 225.75."}
+{"instruction": "Tính giá trị của biểu thức: 353 + 286", "output": "353 + 286 = 639"}
+{"instruction": "Hãy trình bày ngắn gọn về Batch Size.", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "20% của 211 là bao nhiêu?", "output": "20% của 211 là 42.2."}
+{"instruction": "Tính trung bình cộng của các số sau: 85, 11, 37", "output": "Trung bình cộng của 85, 11, 37 là 44.33."}
+{"instruction": "Tính giá trị của biểu thức: 260 + 468", "output": "260 + 468 = 728"}
+{"instruction": "Tính giá trị của biểu thức: 175 - 58", "output": "175 - 58 = 117"}
+{"instruction": "Giải thích khái niệm Machine Learning trong Machine Learning.", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "Viết một email trang trọng để khiếu nại về sản phẩm bị lỗi.", "output": "Kính gửi Bộ phận Chăm sóc khách hàng,\n\nTôi viết email này để phản ánh về sản phẩm tôi vừa nhận được bị lỗi kỹ thuật. Tôi mong Quý công ty kiểm tra và hỗ trợ đổi trả hoặc sửa chữa trong thời gian sớm nhất.\n\nMong nhận được phản hồi sớm từ Quý công ty.\n\nTrân trọng."}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Nêu định nghĩa của Embedding trong lĩnh vực AI.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Tính giá trị của biểu thức: 35 + 464", "output": "35 + 464 = 499"}
+{"instruction": "Batch Size là gì?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Batch Size là gì?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "25% của 719 là bao nhiêu?", "output": "25% của 719 là 179.75."}
+{"instruction": "Tính giá trị của biểu thức: 468 * 483", "output": "468 * 483 = 226044"}
+{"instruction": "Bạn có thể mô tả Batch Size một cách dễ hiểu không?", "output": "Batch Size là số lượng mẫu dữ liệu được xử lý cùng lúc trong một lần cập nhật trọng số của mô hình trong quá trình huấn luyện."}
+{"instruction": "Tính trung bình cộng của các số sau: 65, 55, 71, 58, 21", "output": "Trung bình cộng của 65, 55, 71, 58, 21 là 54.0."}
+{"instruction": "15% của 710 là bao nhiêu?", "output": "15% của 710 là 106.5."}
+{"instruction": "Nước nào có diện tích lớn nhất thế giới?", "output": "Nga là quốc gia có diện tích lớn nhất thế giới."}
+{"instruction": "Translate the following sentence to Vietnamese: Hello", "output": "Xin chào"}
+{"instruction": "10% của 156 là bao nhiêu?", "output": "10% của 156 là 15.6."}
+{"instruction": "Tính giá trị của biểu thức: 428 + 187", "output": "428 + 187 = 615"}
+{"instruction": "Viết lại câu sau theo văn phong trang trọng, chuyên nghiệp hơn: \"Sản phẩm này rẻ.\"", "output": "Sản phẩm này có mức giá vô cùng phải chăng, phù hợp với đa số người tiêu dùng."}
+{"instruction": "Tính giá trị của biểu thức: 443 + 374", "output": "443 + 374 = 817"}
+{"instruction": "20% của 321 là bao nhiêu?", "output": "20% của 321 là 64.2."}
+{"instruction": "Giải thích đoạn code sau:\n```python\nfor i in range(10):\n    print(i)\n```", "output": "Đoạn code này dùng vòng lặp for để lặp qua các số từ 0 đến 9 và in từng số ra màn hình."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng tôi sẽ đi du lịch vào tháng tới", "output": "We will travel next month"}
+{"instruction": "10% của 593 là bao nhiêu?", "output": "10% của 593 là 59.3."}
+{"instruction": "30% của 753 là bao nhiêu?", "output": "30% của 753 là 225.9."}
+{"instruction": "50% của 321 là bao nhiêu?", "output": "50% của 321 là 160.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 95, 57, 71", "output": "Trung bình cộng của 95, 57, 71 là 74.33."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi thích đọc sách vào buổi tối", "output": "I like reading books in the evening"}
+{"instruction": "Tính giá trị của biểu thức: 383 - 300", "output": "383 - 300 = 83"}
+{"instruction": "Tính trung bình cộng của các số sau: 61, 86, 15", "output": "Trung bình cộng của 61, 86, 15 là 54.0."}
+{"instruction": "Tính giá trị của biểu thức: 443 + 374", "output": "443 + 374 = 817"}
+{"instruction": "Hãy trình bày ngắn gọn về LoRA.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Tính giá trị của biểu thức: 385 * 137", "output": "385 * 137 = 52745"}
+{"instruction": "Nêu định nghĩa của LoRA trong lĩnh vực AI.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Bạn có thể mô tả Epoch một cách dễ hiểu không?", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "Tính giá trị của biểu thức: 471 * 1", "output": "471 * 1 = 471"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúng ta cần hoàn thành dự án trước thứ Sáu", "output": "We need to finish the project before Friday"}
+{"instruction": "Tính giá trị của biểu thức: 328 + 58", "output": "328 + 58 = 386"}
+{"instruction": "15% của 568 là bao nhiêu?", "output": "15% của 568 là 85.2."}
+{"instruction": "5% của 152 là bao nhiêu?", "output": "5% của 152 là 7.6."}
+{"instruction": "Tính giá trị của biểu thức: 374 * 236", "output": "374 * 236 = 88264"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Anh ấy làm việc chăm chỉ mỗi ngày", "output": "He works hard every day"}
+{"instruction": "Tính giá trị của biểu thức: 118 + 302", "output": "118 + 302 = 420"}
+{"instruction": "Tính giá trị của biểu thức: 128 + 99", "output": "128 + 99 = 227"}
+{"instruction": "30% của 727 là bao nhiêu?", "output": "30% của 727 là 218.1."}
+{"instruction": "20% của 853 là bao nhiêu?", "output": "20% của 853 là 170.6."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 41, 85, 16", "output": "Trung bình cộng của 80, 41, 85, 16 là 55.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 94, 41, 56, 78", "output": "Trung bình cộng của 94, 41, 56, 78 là 67.25."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Chúc bạn ngủ ngon", "output": "Good night"}
+{"instruction": "Translate the following sentence to Vietnamese: We will travel next month", "output": "Chúng tôi sẽ đi du lịch vào tháng tới"}
+{"instruction": "25% của 810 là bao nhiêu?", "output": "25% của 810 là 202.5."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Đây là bữa ăn ngon nhất tôi từng ăn", "output": "This is the best meal I have ever had"}
+{"instruction": "Tính trung bình cộng của các số sau: 15, 34, 23", "output": "Trung bình cộng của 15, 34, 23 là 24.0."}
+{"instruction": "Tính giá trị của biểu thức: 296 * 99", "output": "296 * 99 = 29304"}
+{"instruction": "Giải thích khái niệm Embedding trong Machine Learning.", "output": "Embedding là biểu diễn vector số thực của dữ liệu rời rạc (như từ, câu) trong không gian nhiều chiều, sao cho các đối tượng có ngữ nghĩa gần nhau thì vector cũng gần nhau."}
+{"instruction": "Giải thích khái niệm LoRA trong Machine Learning.", "output": "LoRA (Low-Rank Adaptation) là kỹ thuật fine-tuning hiệu quả, chèn thêm các ma trận phân rã hạng thấp vào các lớp Linear thay vì cập nhật toàn bộ trọng số gốc."}
+{"instruction": "Nêu định nghĩa của Epoch trong lĩnh vực AI.", "output": "Epoch là một lượt duyệt qua toàn bộ tập dữ liệu huấn luyện trong quá trình train mô hình."}
+{"instruction": "5% của 240 là bao nhiêu?", "output": "5% của 240 là 12.0."}
+{"instruction": "Tính giá trị của biểu thức: 450 + 291", "output": "450 + 291 = 741"}
+{"instruction": "Tính giá trị của biểu thức: 449 - 369", "output": "449 - 369 = 80"}
+{"instruction": "Giải thích khái niệm Attention Mechanism trong Machine Learning.", "output": "Attention Mechanism là cơ chế cho phép mô hình tập trung vào các phần quan trọng của đầu vào khi tạo ra đầu ra, bằng cách tính trọng số liên quan giữa các token."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Tôi thích đọc sách vào buổi tối", "output": "I like reading books in the evening"}
+{"instruction": "Tính giá trị của biểu thức: 118 + 421", "output": "118 + 421 = 539"}
+{"instruction": "5% của 240 là bao nhiêu?", "output": "5% của 240 là 12.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 34, 5, 14, 77, 56", "output": "Trung bình cộng của 34, 5, 14, 77, 56 là 37.2."}
+{"instruction": "Tính giá trị của biểu thức: 343 + 249", "output": "343 + 249 = 592"}
+{"instruction": "Dịch câu sau sang tiếng Anh: Hà Nội là thủ đô của Việt Nam", "output": "Hanoi is the capital of Vietnam"}
+{"instruction": "50% của 998 là bao nhiêu?", "output": "50% của 998 là 499.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 80, 20, 31", "output": "Trung bình cộng của 80, 20, 31 là 43.67."}
+{"instruction": "Dịch câu sau sang tiếng Anh: Đây là bữa ăn ngon nhất tôi từng ăn", "output": "This is the best meal I have ever had"}
+{"instruction": "Tính trung bình cộng của các số sau: 24, 7, 34, 49", "output": "Trung bình cộng của 24, 7, 34, 49 là 28.5."}
+{"instruction": "Tính trung bình cộng của các số sau: 53, 80, 96, 20, 31", "output": "Trung bình cộng của 53, 80, 96, 20, 31 là 56.0."}
+{"instruction": "Tính giá trị của biểu thức: 310 + 136", "output": "310 + 136 = 446"}
+{"instruction": "Translate the following sentence to Vietnamese: We will travel next month", "output": "Chúng tôi sẽ đi du lịch vào tháng tới"}
+{"instruction": "Tính giá trị của biểu thức: 324 + 31", "output": "324 + 31 = 355"}
+{"instruction": "5% của 272 là bao nhiêu?", "output": "5% của 272 là 13.6."}
+{"instruction": "Translate the following sentence to Vietnamese: We will travel next month", "output": "Chúng tôi sẽ đi du lịch vào tháng tới"}
+{"instruction": "Tính giá trị của biểu thức: 123 + 30", "output": "123 + 30 = 153"}
+{"instruction": "Machine Learning là gì?", "output": "Machine Learning (Học máy) là một nhánh của trí tuệ nhân tạo, cho phép hệ thống tự học từ dữ liệu và cải thiện hiệu suất mà không cần lập trình tường minh cho từng quy tắc."}
+{"instruction": "Bạn có thể mô tả Overfitting một cách dễ hiểu không?", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "Giải thích khái niệm Overfitting trong Machine Learning.", "output": "Overfitting (quá khớp) xảy ra khi mô hình học quá chi tiết các đặc trưng của dữ liệu huấn luyện, bao gồm cả nhiễu, dẫn đến hiệu suất kém trên dữ liệu mới chưa từng thấy."}
+{"instruction": "10% của 156 là bao nhiêu?", "output": "10% của 156 là 15.6."}
+{"instruction": "15% của 923 là bao nhiêu?", "output": "15% của 923 là 138.45."}
+{"instruction": "50% của 564 là bao nhiêu?", "output": "50% của 564 là 282.0."}
+{"instruction": "Tính trung bình cộng của các số sau: 4, 40, 74, 87, 49", "output": "Trung bình cộng của 4, 40, 74, 87, 49 là 50.8."}
+{"instruction": "Tính giá trị của biểu thức: 280 + 215", "output": "280 + 215 = 495"}
+{"instruction": "Tính giá trị của biểu thức: 230 - 302", "output": "230 - 302 = -72"}
+{"instruction": "10% của 950 là bao nhiêu?", "output": "10% của 950 là 95.0."}
+{"instruction": "30% của 356 là bao nhiêu?", "output": "30% của 356 là 106.8."}

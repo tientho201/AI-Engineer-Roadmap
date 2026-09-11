@@ -14,7 +14,7 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 | **Phase 2** | Machine Learning cơ bản | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 4** | NLP & Large Language Models | 6–8 tuần | ✅ Demo 1–19 |
-| **Phase 5** | Computer Vision | 4–6 tuần | 🚧 Đang chuẩn bị |
+| **Phase 5** | Computer Vision | 4–6 tuần | ✅ Demo 1–12 + dự án cuối phase |
 | **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | 🚧 Đang chuẩn bị |
 | **Phase 7** | AI Engineering nâng cao | On-going | 🚧 Đang chuẩn bị |
 
@@ -28,7 +28,7 @@ AI-Engineering-Review/
 ├── Phase2/          # Classical ML: sklearn, tuning, explainability
 ├── Phase3/          # Deep Learning: PyTorch, CNN, RNN/LSTM, Transformer, MiniGPT
 ├── Phase4/          # NLP, LLM, RAG & AI Agents
-├── Phase5/          # Computer Vision
+├── Phase5/          # Computer Vision: YOLO, tracking, SAM, CLIP, ONNX
 ├── Phase6/          # MLOps & triển khai production
 ├── Phase7/          # AI Engineering nâng cao
 └── ai-roadmap/      # Môi trường Python (uv) & dependencies dùng chung
@@ -42,7 +42,7 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 | Phase 2 | `Phase2/final_phase2.py` | Pipeline dự đoán churn (LightGBM + Optuna) |
 | Phase 3 | `Phase3/final_phase3.py` | MiniGPT — BPE tokenizer + RoPE |
 | Phase 4 | *(chưa có final)* | Tokenizer → RAG → Agents → Fine-tune → Eval/Obs |
-| Phase 5 | — | Computer Vision |
+| Phase 5 | `Phase5/final_phase5.py` | Video analytics — detect, track, zone, alert |
 | Phase 6 | — | MLOps, deployment, monitoring |
 | Phase 7 | — | Model optimization, system design, multimodal AI |
 
@@ -245,15 +245,30 @@ python Phase4/Demo19.py   # Anthropic
 
 ## Phase 5 — Computer Vision
 
-Mô hình thị giác máy tính và ứng dụng thực tế.
+Từ xử lý ảnh cơ bản đến detection, tracking, segmentation, VLM và deploy ONNX.
 
-| Chủ đề | Nội dung |
-|--------|----------|
-| Vision models | Kiến trúc CNN nâng cao, object detection, segmentation |
-| Transfer learning | Fine-tune model vision cho bài toán riêng |
-| Ứng dụng | Image classification, detection app |
+| Demo | Chủ đề | Ghi chú |
+|------|--------|---------|
+| Demo1 | OpenCV pitfalls — BGR↔RGB, (H,W,C)→(C,H,W), letterbox | Cần `photo.jpg` |
+| Demo2 | Albumentations — augment ảnh + bbox đồng bộ | — |
+| Demo3 | `timm` pretrained + fine-tune 2 giai đoạn | — |
+| Demo4 | IoU & NMS — tự cài đặt | — |
+| Demo5 | Average Precision / mAP@0.5 | Dùng `iou` từ Demo4 |
+| Demo6 | Train YOLO11 — dataset YAML, mosaic, export | Cần dataset YOLO |
+| Demo7 | ByteTrack + LineZone — đếm người qua đường kẻ | Cần `traffic.mp4` |
+| Demo8 | UNet + DiceBCELoss — segmentation | — |
+| Demo9 | SAM (Segment Anything) — box → mask, auto-label | GPU khuyến nghị |
+| Demo10 | OpenCLIP — zero-shot classify + tìm ảnh bằng text | — |
+| Demo11 | Vision-Language Model (Claude) — OCR/layout bằng prompt | Anthropic |
+| Demo12 | Export ONNX + benchmark vs PyTorch | GPU / onnxruntime |
 
-**Trạng thái:** thư mục `Phase5/` đã tạo — demo code sẽ được bổ sung theo lộ trình Notion.
+**Dự án cuối phase:** `final_phase5.py` — pipeline video analytics:
+
+`Detect (YOLO) → Track (ByteTrack) → ước tốc độ → cảnh báo vùng cấm → stream webcam`
+
+```bash
+python Phase5/final_phase5.py   # mặc định dùng webcam (VideoCapture(0))
+```
 
 ---
 
@@ -319,6 +334,10 @@ Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
 | ragas | Đánh giá pipeline RAG |
 | langfuse | Observability — tracing, cost, latency |
 | mcp, fastmcp | Model Context Protocol |
+| opencv-python, pillow, albumentations | Xử lý ảnh & augmentation (Phase 5) |
+| timm, ultralytics, supervision | Classification, YOLO, tracking |
+| open-clip-torch | Zero-shot / image-text search |
+| onnxruntime-gpu | Deploy & benchmark ONNX |
 | dotenv | Load API keys từ `.env` |
 | einops | Tensor manipulation |
 | Matplotlib, Seaborn | Visualization |
@@ -335,7 +354,8 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 - Một số demo Phase 2/3 cần dataset hoặc GPU — kiểm tra comment đầu file trước khi chạy.
 - Phase 4: nhiều demo cần `.env` (`OPENAI_API_KEY`, tùy chọn `ANTHROPIC_API_KEY`, `LANGFUSE_*`).
 - Demo16/17 cần GPU (QLoRA 4-bit); Demo17 import model từ Demo16.
-- Phase 5–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link).
+- Phase 5: một số demo cần file media (`photo.jpg`, `traffic.mp4`) hoặc webcam; Demo11 cần Anthropic.
+- Phase 6–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link).
 - Đã ignore: `ai-roadmap/.venv`, `.env`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 
 ---

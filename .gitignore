@@ -19,3 +19,7 @@ Phase4/mcp-demo
 
 Phase4/gen_dataset.py
 Phase4/Demo19-main.py
+
+Phase5/model.*
+
+:memory:.*

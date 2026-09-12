@@ -15,8 +15,8 @@ Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** 
 | **Phase 3** | Deep Learning & Transformer | 6–8 tuần | ✅ Demo + dự án cuối phase |
 | **Phase 4** | NLP & Large Language Models | 6–8 tuần | ✅ Demo 1–19 |
 | **Phase 5** | Computer Vision | 4–6 tuần | ✅ Demo 1–12 + dự án cuối phase |
-| **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | 🚧 Đang chuẩn bị |
-| **Phase 7** | AI Engineering nâng cao | On-going | 🚧 Đang chuẩn bị |
+| **Phase 6** | MLOps & Triển khai Production | 4–6 tuần | ✅ Demo 1–13 |
+| **Phase 7** | AI Engineering nâng cao | On-going | ✅ Demo 1–14 |
 
 ---
 
@@ -29,8 +29,8 @@ AI-Engineering-Review/
 ├── Phase3/          # Deep Learning: PyTorch, CNN, RNN/LSTM, Transformer, MiniGPT
 ├── Phase4/          # NLP, LLM, RAG & AI Agents
 ├── Phase5/          # Computer Vision: YOLO, tracking, SAM, CLIP, ONNX
-├── Phase6/          # MLOps & triển khai production
-├── Phase7/          # AI Engineering nâng cao
+├── Phase6/          # MLOps: MLflow, FastAPI, Docker, K8s, drift, CI
+├── Phase7/          # Nâng cao: quantize, agents, GraphRAG, multimodal
 └── ai-roadmap/      # Môi trường Python (uv) & dependencies dùng chung
 ```
 
@@ -43,8 +43,8 @@ Mỗi phase gồm các file `Demo1.py` → `DemoN.py` (bài thực hành ngắn,
 | Phase 3 | `Phase3/final_phase3.py` | MiniGPT — BPE tokenizer + RoPE |
 | Phase 4 | *(chưa có final)* | Tokenizer → RAG → Agents → Fine-tune → Eval/Obs |
 | Phase 5 | `Phase5/final_phase5.py` | Video analytics — detect, track, zone, alert |
-| Phase 6 | — | MLOps, deployment, monitoring |
-| Phase 7 | — | Model optimization, system design, multimodal AI |
+| Phase 6 | *(chưa có final)* | Serving, Docker/K8s, drift, cost, CI/load test |
+| Phase 7 | *(chưa có final)* | Quantize, speculative decode, agents, GraphRAG |
 
 ---
 
@@ -274,31 +274,58 @@ python Phase5/final_phase5.py   # mặc định dùng webcam (VideoCapture(0))
 
 ## Phase 6 — MLOps & Triển khai Production
 
-Đưa mô hình ML/DL từ notebook ra production.
+Experiment tracking, serving API, container/K8s, monitoring drift, CI và load test.
 
-| Chủ đề | Nội dung |
-|--------|----------|
-| Experiment tracking | MLflow, versioning model & data |
-| Model deployment | Serving, REST API (FastAPI) |
-| Cloud platforms | Triển khai trên cloud |
-| Monitoring | Observability, drift detection |
-| CI/CD cho ML | Pipeline automation |
+| Demo | Chủ đề | Loại |
+|------|--------|------|
+| Demo1 | MLflow — log experiment, register model, load production | `.py` |
+| Demo2 | DVC pipeline — prepare → train → evaluate | `.yaml` |
+| Demo3 | FastAPI serving — lifespan, Prometheus metrics, streaming | `.py` |
+| Demo4 | SSE streaming (Anthropic) — TTFT / UX | `.py` |
+| Demo5 | Client OpenAI-compatible — gọi local LLM server | `.py` |
+| Dockerfile | Multi-stage Docker — uv sync, non-root, healthcheck | *(Demo6)* |
+| Demo7 | Kubernetes Deployment — replicas, probes, Prometheus scrape | `.yaml` |
+| Demo8 | Evidently — data drift report | `.py` |
+| Demo9 | PSI — Population Stability Index, ngưỡng cảnh báo | `.py` |
+| Demo10 | Ước lượng chi phí token + chiến lược giảm cost | `.py` |
+| Demo11 | GitHub Actions ML CI — test + eval gate | `.yml` |
+| Demo12 | Pytest RAG API — không so sánh chuỗi LLM cứng | `.py` |
+| Demo13 | Locust load test — QPS / p95 / replica | `.py` |
 
-**Trạng thái:** thư mục `Phase6/` đã tạo — demo code sẽ được bổ sung theo lộ trình Notion.
+```bash
+python Phase6/Demo1.py
+python Phase6/Demo9.py
+# locust -f Phase6/Demo13.py --host http://localhost:8000
+```
 
 ---
 
 ## Phase 7 — AI Engineering nâng cao
 
-Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
+Quantization, inference tối ưu, agent an toàn, GraphRAG, multimodal và tối ưu chi phí.
 
-| Chủ đề | Nội dung |
-|--------|----------|
-| Model optimization | Quantization, distillation, pruning |
-| AI system design | Thiết kế hệ thống AI quy mô lớn |
-| Multimodal AI | Kết hợp text, image, audio |
+| Demo | Chủ đề | Ghi chú |
+|------|--------|---------|
+| Demo1 | Quantization cơ bản — outlier, AWQ/GPTQ/SmoothQuant/NF4 | — |
+| Demo2 | GPTQ one-shot (`llmcompressor`) + calibration | GPU |
+| Demo3 | KV cache sizing — GQA, paged attention, prefix cache | — |
+| Demo4 | Speculative decoding — draft/target, EAGLE/Medusa | Pseudocode |
+| Demo5 | FSDP training — `torchrun` multi-GPU | Multi-GPU |
+| Demo6 | Code agent — generate → critique → test loop | Anthropic |
+| Demo7 | E2B sandbox — chạy code agent an toàn | E2B API |
+| Demo8 | 4 tầng đánh giá agent — unit → step → traj → E2E | — |
+| Demo9 | GraphRAG — entity graph + community summary | Anthropic |
+| Demo10 | Contextual retrieval — prepend context trước khi embed | Anthropic |
+| Demo11 | Multimodal projector (LLaVA-style) — 2 giai đoạn train | — |
+| Demo12 | Voice agent — cascaded vs speech-to-speech, barge-in | Pseudocode |
+| Demo13 | Model routing + chiến lược giảm chi phí LLM | Anthropic |
+| Demo14 | Semantic cache — embedding similarity, ngưỡng an toàn | — |
 
-**Trạng thái:** thư mục `Phase7/` đã tạo — demo code sẽ được bổ sung theo lộ trình Notion.
+```bash
+python Phase7/Demo1.py
+python Phase7/Demo3.py
+python Phase7/Demo14.py
+```
 
 ---
 
@@ -338,6 +365,10 @@ Chuyên sâu và học liên tục — cập nhật theo xu hướng mới.
 | timm, ultralytics, supervision | Classification, YOLO, tracking |
 | open-clip-torch | Zero-shot / image-text search |
 | onnxruntime-gpu | Deploy & benchmark ONNX |
+| mlflow, dvc | Experiment tracking & data/model pipeline |
+| fastapi, uvicorn, pydantic-settings | Model serving API |
+| prometheus_client, locust, pytest | Metrics, load test, CI tests |
+| networkx | GraphRAG (Phase 7) |
 | dotenv | Load API keys từ `.env` |
 | einops | Tensor manipulation |
 | Matplotlib, Seaborn | Visualization |
@@ -355,7 +386,8 @@ Danh sách đầy đủ trong [`ai-roadmap/pyproject.toml`](ai-roadmap/pyproject
 - Phase 4: nhiều demo cần `.env` (`OPENAI_API_KEY`, tùy chọn `ANTHROPIC_API_KEY`, `LANGFUSE_*`).
 - Demo16/17 cần GPU (QLoRA 4-bit); Demo17 import model từ Demo16.
 - Phase 5: một số demo cần file media (`photo.jpg`, `traffic.mp4`) hoặc webcam; Demo11 cần Anthropic.
-- Phase 6–7 hiện mới có cấu trúc thư mục; nội dung demo sẽ được cập nhật dần theo [Notion roadmap](https://ai-engineer-roadmap.notion.site/AI-Engineer-Roadmap-L-tr-nh-h-c-y-3d10743dbce580f68924cd33d22ec22a?source=copy_link).
+- Phase 6: nhiều file là mẫu config (DVC/K8s/CI/Dockerfile) — đọc để học pattern, không phải lúc nào cũng chạy được độc lập.
+- Phase 7: một số demo cần Anthropic/E2B/GPU; Demo4/12 mang tính minh họa kiến trúc.
 - Đã ignore: `ai-roadmap/.venv`, `.env`, `*/data/`, `*/__pycache__/`, `*/runs/`, `*/attention_maps/`, `Phase3/best_minigpt.pt` (xem `.gitignore`).
 
 ---

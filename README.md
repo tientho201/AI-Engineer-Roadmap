@@ -1,4 +1,4 @@
-# AI Engineering Review
+# AI Engineering Roadmap
 
 Kho lưu trữ mã nguồn thực hành cho lộ trình **AI Engineer Roadmap** gồm **7 phase** — từ nền tảng toán & Python, qua Machine Learning, Deep Learning, NLP/LLM, Computer Vision, MLOps, đến AI Engineering nâng cao.
 

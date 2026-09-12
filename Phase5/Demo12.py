@@ -1,4 +1,4 @@
-import timm , torch, time, numpy as np
+import timm, torch, time, numpy as np
 import onnxruntime as ort
 
 model = timm.create_model("convnextv2_tiny", pretrained=True, num_classes=10).eval()
@@ -19,7 +19,7 @@ def bench(fn, n=100, warmup=10):
     for _ in range(n): fn()
     return (time.perf_counter() - t0) / n * 1000
 
-sess = ort.InferenceSession("model.onnx", providers=["CUDAExecutionProvider"])
+sess = ort.InferenceSession("model.onnx")
 x_np = dummy.numpy()
 
 with torch.no_grad():

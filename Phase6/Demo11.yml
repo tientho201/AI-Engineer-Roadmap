@@ -1,0 +1,67 @@
+# .github/workflows/ml-ci.yml
+name: ML CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+      - name: Lint & type check
+        run: |
+          uv run ruff check .
+          uv run mypy src/
+      - name: Unit tests
+        run: uv run pytest tests/ -v --cov=src --cov-fail-under=70
+
+  eval-gate:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync --frozen
+
+      - name: Chạy eval trên golden set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run python evals/run_eval.py --output metrics.json
+
+      - name: CỔNG CHẤT LƯỢNG — chặn merge nếu tụt
+        run: |
+          python - <<'EOF'
+          import json, sys
+          m = json.load(open("metrics.json"))
+          baseline = json.load(open("evals/baseline.json"))
+          failed = []
+          for k, threshold in [("faithfulness", 0.85),
+                               ("answer_relevancy", 0.80),
+                               ("context_recall", 0.75)]:
+              if m[k] < threshold:
+                  failed.append(f"{k}={m[k]:.3f} < ngưỡng {threshold}")
+              if m[k] < baseline[k] - 0.03:
+                  failed.append(f"{k} tụt {baseline[k]-m[k]:.3f} so với baseline")
+          if failed:
+              print("EVAL FAILED:"); [print(" -", f) for f in failed]
+              sys.exit(1)
+          print("Eval đạt ✓")
+          EOF
+
+      - name: Bình luận kết quả vào PR
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const m = require('./metrics.json');
+            const body = Object.entries(m)
+              .map(([k,v]) => `- **${k}**: ${Number(v).toFixed(4)}`).join('\n');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner, repo: context.repo.repo,
+              body: `### Kết quả Eval\n${body}`
+            });

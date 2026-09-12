@@ -1,0 +1,19 @@
+# dvc.yaml — pipeline tái hiện được, chỉ chạy lại stage bị thay đổi
+stages:
+  prepare:
+    cmd: python src/prepare.py
+    deps: [src/prepare.py, data/raw/train.parquet]
+    outs: [data/processed/]
+
+  train:
+    cmd: python src/train.py
+    deps: [src/train.py, data/processed/]
+    params: [train.lr, train.epochs, train.batch_size]
+    outs: [models/model.pkl]
+    metrics: [metrics/train.json]
+
+  evaluate:
+    cmd: python src/evaluate.py
+    deps: [src/evaluate.py, models/model.pkl]
+    metrics: [metrics/eval.json]
+    plots: [plots/pr_curve.json]

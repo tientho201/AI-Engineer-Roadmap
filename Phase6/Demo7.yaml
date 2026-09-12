@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: churn-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels: {app: churn-api}
+  template:
+    metadata:
+      labels: {app: churn-api}
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: "/metrics"
+    spec:
+      containers:
+      - name: api
+        image: registry.example.com/churn-api:v1.2.3   # KHÔNG dùng :latest
+        ports: [{containerPort: 8000}]
+        resources:
+          requests: {memory: "1Gi", cpu: "500m"}
+          limits:   {memory: "2Gi", cpu: "2000m"}
+        # Liveness: pod treo -> restart
+        livenessProbe:
+          httpGet: {path: /health, port: 8000}
+          initialDelaySeconds: 30
+          periodSeconds: 15
+        # Readiness: chưa nạp xong model -> KHÔNG nhận traffic
+        readinessProbe:
+          httpGet: {path: /ready, port: 8000}
+          initialDelaySeconds: 10
+          periodSeconds: 5
+        env:
+        - name: MODEL_URI
+          valueFrom:
+            configMapKeyRef: {name: churn-config, key: model_uri}
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: churn-api-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: churn-api
+  minReplicas: 2
+  maxReplicas: 20
+  metrics:
+  - type: Resource
+    resource: {name: cpu, target: {type: Utilization, averageUtilization: 70}}
